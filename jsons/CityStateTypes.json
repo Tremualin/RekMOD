@@ -27,13 +27,11 @@
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+4 Happiness] <starting from the [Medieval era]>"
+            "[+2 Production] [in capital]"
         ],
         "allyBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+4 Happiness] <starting from the [Medieval era]>",
-            "Provides a unique luxury"
+            "[+3 Production] [in capital]",
+            "[+1 Production] [in all cities]"
         ],
         "color": [255,216,0]
     },
