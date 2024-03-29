@@ -2,65 +2,43 @@
     {
         "name": "Cultured",
         "friendBonusUniques": [
-            "[+3 Culture] <before the [Medieval era]>",
-            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+12 Culture] <starting from the [Industrial era]>"
+            "[+10]% [Culture] [in all cities]"
         ],
         "allyBonusUniques": [
-            "[+6 Culture] <before the [Medieval era]>",
-            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+24 Culture] <starting from the [Industrial era]>"
+            "[+10]% [Culture] [in all cities]", "[-10]% Culture cost of adopting new Policies"
         ],
-        "color": [139,96,255]
+        "color": [139, 96, 255]
     },
     {
         "name": "Maritime",
-        "friendBonusUniques": [
-            "[+2 Food] [in capital]"
-        ],
-        "allyBonusUniques": [
-            "[+3 Food] [in capital]",
-            "[+1 Food] [in all cities]"
-        ],
-        "color": [56,255,112]
+        "friendBonusUniques": ["[+10]% [Food] [in all cities]"],
+        "allyBonusUniques": ["[+10]% [Food] [in all cities]", "[25]% Food is carried over after population increases [in all cities]"],
+        "color": [56, 255, 112]
     },
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-            "[+2 Production] [in capital]"
+        "[+10]% [Gold] [in all cities]"
         ],
         "allyBonusUniques": [
-            "[+3 Production] [in capital]",
-            "[+1 Production] [in all cities]"
+        "[+10]% [Gold] [in all cities]", "Provides a unique luxury",
         ],
-        "color": [255,216,0]
+        "color": [255, 216, 0]
     },
     {
         "name": "Militaristic",
-        "friendBonusUniques": [
-            "Provides military units every ≈[20] turns"
-        ],
-        "allyBonusUniques": [
-            "Provides military units every ≈[13] turns"
-        ],
-        "color": [255,0,0]
+        "friendBonusUniques": ["[+10]% Strength <for [Military] units>"],
+        "allyBonusUniques": ["[+10]% Strength <for [Military] units>", "Provides military units every ≈[10] turns"],
+        "color": [255, 0, 0]
     },
     {
         "name": "Religious",
-        "friendBonusUniques": [
-            "[+2 Faith] <before the [Classical era]>",
-            "[+3 Faith] <starting from the [Classical era]> <before the [Medieval era]>",
-            "[+4 Faith] <starting from the [Medieval era]> <before the [Renaissance era]>",
-            "[+6 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
-            "[+8 Faith] <starting from the [Industrial era]>"
+        "friendBonusUniques":  [
+            "[+10]% [Faith] [in all cities]"
         ],
-        "allyBonusUniques": [
-            "[+4 Faith] <before the [Classical era]>",
-            "[+6 Faith] <starting from the [Classical era]> <before the [Medieval era]>",
-            "[+8 Faith] <starting from the [Medieval era]> <before the [Renaissance era]>",
-            "[+12 Faith] <starting from the [Renaissance era]> <before the [Industrial era]>",
-            "[+16 Faith] <starting from the [Industrial era]>"
+        "allyBonusUniques":  [
+            "[+10]% [Faith] [in all cities]", "[Faith] cost of purchasing items in cities [-10]%"
         ],
-        "color": [255,255,255]
+        "color": [255, 255, 255]
     }
 ]
