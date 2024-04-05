@@ -5,30 +5,43 @@
             "[+10]% [Culture] [in all cities]"
         ],
         "allyBonusUniques": [
-            "[+10]% [Culture] [in all cities]", "[-10]% Culture cost of adopting new Policies"
+            "[+10]% [Culture] [in all cities]", 
+            "[-10]% Culture cost of adopting new Policies"
         ],
         "color": [139, 96, 255]
     },
     {
         "name": "Maritime",
-        "friendBonusUniques": ["[+10]% [Food] [in all cities]"],
-        "allyBonusUniques": ["[+10]% [Food] [in all cities]", "[25]% Food is carried over after population increases [in all cities]"],
+        "friendBonusUniques": [
+            "[+5]% [Food] [in all cities]"
+            "[+5]% [Production] [in all cities]"
+        ],
+        "allyBonusUniques": [
+            "[+10]% [Food] [in all cities]"
+            "[+10]% [Production] [in all cities]"
+        ],
         "color": [56, 255, 112]
     },
     {
         "name": "Mercantile",
         "friendBonusUniques": [
-        "[+10]% [Gold] [in all cities]"
+            "[+10]% [Gold] [in all cities]"
         ],
         "allyBonusUniques": [
-        "[+10]% [Gold] [in all cities]", "Provides a unique luxury",
+            "[+10]% [Gold] [in all cities]", 
+            "Provides a unique luxury",
         ],
         "color": [255, 216, 0]
     },
     {
         "name": "Militaristic",
-        "friendBonusUniques": ["[+10]% Strength <for [Military] units>"],
-        "allyBonusUniques": ["[+10]% Strength <for [Military] units>", "Provides military units every ≈[10] turns"],
+        "friendBonusUniques": [
+            "[+5]% Production when constructing [Military] units [in all cities]" 
+            "Provides military units every ≈[20] turns",
+        ],
+        "allyBonusUniques": [
+            "[+10]% Production when constructing [Military] units [in all cities]", 
+            "Provides military units every ≈[10] turns"],
         "color": [255, 0, 0]
     },
     {
@@ -37,7 +50,8 @@
             "[+10]% [Faith] [in all cities]"
         ],
         "allyBonusUniques":  [
-            "[+10]% [Faith] [in all cities]", "[Faith] cost of purchasing items in cities [-10]%"
+            "[+10]% [Faith] [in all cities]", 
+            "[Faith] cost of purchasing items in cities [-10]%"
         ],
         "color": [255, 255, 255]
     }
