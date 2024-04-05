@@ -211,6 +211,15 @@
         ],
         "unitTypes": ["Scout"]
     },
+    {
+        "name": "Exploration experience",
+        "uniques": [
+            "+15 XP upon discovering a Natural Wonder",
+            "+5 XP upon discovering a [Ancient ruins] tile",
+        ],
+        "unitTypes": ["Scout"]
+    },
+    "Exploration experience"
     // Water melee
     {
         "name": "Boarding Party I",

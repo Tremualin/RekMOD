@@ -96,7 +96,7 @@
             "May upgrade to [Archer] through ruins-like effects",
             "Never appears as a Barbarian unit"
         ],
-        "promotions": ["Ignore terrain cost"],
+        "promotions": ["Ignore terrain cost", "Exploration experience"],
         "attackSound": "nonmetalhit"
     },
     {
