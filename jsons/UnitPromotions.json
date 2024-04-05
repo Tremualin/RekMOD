@@ -212,9 +212,10 @@
         "unitTypes": ["Scout"]
     },
     {
-        "name": "Exploration experience",
+        "name": "Explorer",
         "uniques": [
-            "This Unit gains [15] XP <upon discovering a Natural Wonder>",
+            "May enter foreign tiles without open borders",
+            "This Unit gains [10] XP <for discovering a Natural Wonder> (bonus enhanced to [20] if first to discover it)",
             "This Unit gains [5] XP <upon discovering a [Ancient ruins] tile>",
         ],
         "unitTypes": ["Scout"]
