@@ -215,8 +215,7 @@
         "name": "Explorer",
         "uniques": [
             "[+1] Sight",
-            "May enter foreign tiles without open borders",
-            "This Unit gains [0.1] XP <upon discovering a [Terrain] tile>",
+            "This Unit gains [5] XP <upon discovering a [City] tile>",
             "This Unit gains [5] XP <upon discovering a [Ancient ruins] tile>",
             "This Unit gains [15] XP <upon discovering a Natural Wonder>",
             "Can see invisible [Scout] units"
@@ -284,7 +283,7 @@
     },
     {
         "name": "Ambusher",
-        "prerequisites": ["Hit And Run"],
+        "prerequisites": ["Hit and Run"],
         "uniques": [
             "[+15]% Strength <when attacking>",
             "[+15]% Strength <when attacking> <after discovering [Machinery]>",
@@ -294,7 +293,7 @@
     },
     {
         "name": "Alert",
-        "prerequisites": ["Hit And Run"],
+        "prerequisites": ["Hit and Run"],
         "uniques": [
             "May withdraw before melee ([50]%)",
         ],
