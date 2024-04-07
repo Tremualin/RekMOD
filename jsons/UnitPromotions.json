@@ -169,13 +169,21 @@
     },
     // Scout
     {
-        "name": "Explorer",
+        "name": "Recon",
         "uniques": [
             "[+1] Sight",
+            "Ignores terrain cost"
             "This Unit gains [5] XP <upon discovering a [City] tile>",
             "This Unit gains [5] XP <upon discovering a [Ancient ruins] tile>",
             "This Unit gains [15] XP <upon discovering a Natural Wonder>",
-            "Can see invisible [Scout] units"
+            "Can see invisible [Land] units"
+        ],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "We come in peace",
+        "uniques": [
+            "May enter foreign tiles without open borders",
         ],
         "unitTypes": ["Scout"]
     },
@@ -233,7 +241,7 @@
     {
         "name": "Hit and Run",
         "uniques": [
-            "[+1] Movement",
+            "Ignores Zone of Control",
             "Can move after attacking",
         ],
         "unitTypes": ["Scout"]
@@ -252,7 +260,7 @@
         "name": "Alert",
         "prerequisites": ["Hit and Run"],
         "uniques": [
-            "May withdraw before melee ([50]%)",
+            "May withdraw before melee ([80]%)",
         ],
         "unitTypes": ["Scout"]
     },

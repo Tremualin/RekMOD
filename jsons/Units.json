@@ -67,7 +67,7 @@
             "Excess Food converted to Production when under construction",
             "Requires at least [2] population"
         ],
-        "promotions": ["Ignore terrain cost", "Explorer"],
+        "promotions": ["Recon"],
         "hurryCostModifier": 20,
         "attackSound": "nonmetalhit"
     },
@@ -96,7 +96,7 @@
             "May upgrade to [Archer] through ruins-like effects",
             "Never appears as a Barbarian unit"
         ],
-        "promotions": ["Ignore terrain cost", "Explorer"],
+        "promotions": ["Recon", "We come in peace"],
         "attackSound": "nonmetalhit"
     },
     {
@@ -111,7 +111,7 @@
         "cost": 25,
         "obsoleteTech": "Steam Power",
         "upgradesTo": "Airship",
-        "promotions": ["Ignore terrain cost", "Explorer"],
+        "promotions": ["Recon", "We come in peace"],
         "attackSound": "arrow"
     },
     {
@@ -125,7 +125,7 @@
         "obsoleteTech": "Steam Power",
         "upgradesTo": "Airship",
         "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
-        "promotions": ["Ignore terrain cost", "Explorer"],
+        "promotions": ["Recon", "We come in peace"],
         "attackSound": "nonmetalhit"
     },
     {
