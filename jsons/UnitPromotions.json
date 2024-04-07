@@ -152,7 +152,7 @@
     },
     {
         "name": "Medic",
-        "prerequisites": ["Shock I", "Drill I","Ambush Formation I", "Scouting II", "Survivalism II"],
+        "prerequisites": ["Shock I", "Drill I","Ambush Formation I", "Resourceful", "Tracker"],
         "uniques": [
             "All adjacent units heal [+5] HP when healing"
         ],
@@ -169,49 +169,6 @@
     },
     // Scout
     {
-        "name": "Scouting I",
-        "uniques": ["[+1] Sight"],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Scouting II",
-        "prerequisites": ["Scouting I"],
-        "uniques": ["[+1] Sight"],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Scouting III",
-        "prerequisites": ["Scouting II"],
-        "uniques": ["[+1] Movement"],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Survivalism I",
-        "uniques": [
-            "[+5] HP when healing <in [Foreign Land] tiles>",
-            "[+25]% Strength <when defending>"
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Survivalism II",
-        "prerequisites": ["Survivalism I"],
-        "uniques": [
-            "[+5] HP when healing <in [Foreign Land] tiles>",
-            "[+25]% Strength <when defending>"
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Survivalism III",
-        "prerequisites": ["Survivalism II"],
-        "uniques": [
-            "Unit will heal every turn, even if it performs an action",
-            "May withdraw before melee ([50]%)"
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
         "name": "Explorer",
         "uniques": [
             "[+1] Sight",
@@ -223,7 +180,7 @@
         "unitTypes": ["Scout"]
     },
     {
-        "name": "Trackers",
+        "name": "Tracker",
         "uniques": [
             "[+1] Sight",
             "[+10] HP when healing <in [Foreign Land] tiles>",
@@ -236,9 +193,9 @@
             "Unit will heal every turn, even if it performs an action",
         ],
         "unitTypes": ["Scout"]
-    }, 
+    },
     {
-        "name": "Booby Traps",
+        "name": "Booby Trapper",
         "prerequisites": ["Ranger", "Alpine"],
         "uniques": [
             "[+15]% Strength <vs [Melee] units> <when defending>",
@@ -249,7 +206,7 @@
     },
     {
         "name": "Ranger",
-        "prerequisites": ["Trackers", "Resourceful"],
+        "prerequisites": ["Tracker", "Resourceful"],
         "uniques": [
             "[+33]% Strength <when fighting in [Forest] tiles>",
             "[+33]% Strength <when fighting in [Jungle] tiles>",
@@ -258,7 +215,7 @@
     },
     {
         "name": "Alpine",
-        "prerequisites": ["Trackers", "Resourceful"],
+        "prerequisites": ["Tracker", "Resourceful"],
         "uniques": [
             "[+33]% Strength <when fighting in [Hill] tiles>",
             "Can pass through impassable tiles"
@@ -267,7 +224,7 @@
     },
     {
         "name": "Stealthy",
-        "prerequisites": ["Alert", "Ambusher"],
+        "prerequisites": ["Alert", "Ambush"],
         "uniques": [
             "Invisible to non-adjacent units",
         ],
@@ -282,7 +239,7 @@
         "unitTypes": ["Scout"]
     },
     {
-        "name": "Ambusher",
+        "name": "Ambush",
         "prerequisites": ["Hit and Run"],
         "uniques": [
             "[+15]% Strength <when attacking>",
