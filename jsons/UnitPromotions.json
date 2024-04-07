@@ -214,9 +214,89 @@
     {
         "name": "Explorer",
         "uniques": [
+            "[+1] Sight",
             "May enter foreign tiles without open borders",
-            "This Unit gains [15] XP <upon discovering a Natural Wonder>",
+            "This Unit gains [0.1] XP <upon discovering a [Terrain] tile>",
             "This Unit gains [5] XP <upon discovering a [Ancient ruins] tile>",
+            "This Unit gains [15] XP <upon discovering a Natural Wonder>",
+            "Can see invisible [Scout] units"
+        ],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "Trackers",
+        "uniques": [
+            "[+1] Sight",
+            "[+10] HP when healing <in [Foreign Land] tiles>",
+        ],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "Resourceful",
+        "uniques": [
+            "Unit will heal every turn, even if it performs an action",
+        ],
+        "unitTypes": ["Scout"]
+    }, 
+    {
+        "name": "Booby Traps",
+        "prerequisites": ["Ranger", "Alpine"],
+        "uniques": [
+            "[+15]% Strength <vs [Melee] units> <when defending>",
+            "[+15]% Strength <vs [Melee] units> <when defending> <after discovering [Machinery]>",
+            "[+20]% Strength <vs [Melee] units> <when defending> <after discovering [Dynamite]>",
+        ],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "Ranger",
+        "prerequisites": ["Trackers", "Resourceful"],
+        "uniques": [
+            "[+33]% Strength <when fighting in [Forest] tiles>",
+            "[+33]% Strength <when fighting in [Jungle] tiles>",
+        ],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "Alpine",
+        "prerequisites": ["Trackers", "Resourceful"],
+        "uniques": [
+            "[+33]% Strength <when fighting in [Hill] tiles>",
+            "Can pass through impassable tiles"
+        ],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "Stealthy",
+        "prerequisites": ["Alert", "Ambusher"],
+        "uniques": [
+            "Invisible to non-adjacent units",
+        ],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "Hit and Run",
+        "uniques": [
+            "[+1] Movement",
+            "Can move after attacking",
+        ],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "Ambusher",
+        "prerequisites": ["Hit And Run"],
+        "uniques": [
+            "[+15]% Strength <when attacking>",
+            "[+15]% Strength <when attacking> <after discovering [Machinery]>",
+            "[+20]% Strength <when attacking> <after discovering [Dynamite]>",
+        ],
+        "unitTypes": ["Scout"]
+    },
+    {
+        "name": "Alert",
+        "prerequisites": ["Hit And Run"],
+        "uniques": [
+            "May withdraw before melee ([50]%)",
         ],
         "unitTypes": ["Scout"]
     },
