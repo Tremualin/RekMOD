@@ -90,13 +90,12 @@
         "movement": 2,
         "strength": 5,
         "cost": 25,
-        "obsoleteTech": "Steam Power",
-        "upgradesTo": "Airship",
+        "obsoleteTech": "Bronze Working",
+        "upgradesTo": "Javelin",
         "uniques": [
-            "May upgrade to [Archer] through ruins-like effects",
             "Never appears as a Barbarian unit"
         ],
-        "promotions": ["Recon", "We come in peace"],
+        "promotions": ["Recon", "First Contact I"],
         "attackSound": "nonmetalhit"
     },
     {
@@ -109,9 +108,9 @@
         "rangedStrength": 5,
         "range": 3,
         "cost": 25,
-        "obsoleteTech": "Steam Power",
-        "upgradesTo": "Airship",
-        "promotions": ["Recon", "We come in peace"],
+        "obsoleteTech": "Machinery",
+        "upgradesTo": "Composite Bowman",
+        "promotions": ["Recon", "First Contact I"],
         "attackSound": "arrow"
     },
     {
@@ -122,10 +121,9 @@
         "movement": 2,
         "strength": 8,
         "cost": 40,
-        "obsoleteTech": "Steam Power",
-        "upgradesTo": "Airship",
-        "uniques": ["May upgrade to [Composite Bowman] through ruins-like effects"],
-        "promotions": ["Recon", "We come in peace"],
+        "obsoleteTech": "Machinery",
+        "upgradesTo": "Skirmisher",
+        "promotions": ["Recon", "First Contact I"],
         "attackSound": "nonmetalhit"
     },
     {
@@ -483,6 +481,20 @@
         "obsoleteTech": "Civil Service",
         "upgradesTo": "Pikeman",
         "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+        "attackSound": "metalhit"
+    },
+    {
+        "name": "Javelin",
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 5,
+        "cost": 40, // Same as an Archer
+        "rangedStrength": 7,
+        "range": 1,
+        "requiredTech": "Bronze Working",
+        "obsoleteTech": "Machinery",
+        "upgradesTo": "Crossbowman",
+        "promotions": ["Recon", "Hit and Run I"],
         "attackSound": "metalhit"
     },
     {
@@ -1221,6 +1233,20 @@
         "attackSound": "horse"
     },
     {
+        "name": "Skirmisher",
+        "unitType": "Scout",
+        "movement": 3,
+        "strength": 7,
+        "rangedStrength": 11,
+        "cost": 75, // Same as Composite Bowman
+        "range": 1,
+        "requiredTech": "Machinery",
+        "obsoleteTech": "Rifling",
+        "upgradesTo": "Ranger",
+        "promotions": ["Recon", "Hit and Run I"],
+        "attackSound": "metalhit"
+    },
+    {
         "name": "Crossbowman",
         "unitType": "Archery",
         "movement": 2,
@@ -1897,6 +1923,20 @@
         "upgradesTo": "Machine Gun",
         "obsoleteTech": "Ballistics",
         "attackSound": "machinegun"
+    },
+    {
+        "name": "Ranger",
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 24,
+        "rangedStrength": 24,
+        "range": 1,
+        "cost": 150,
+        "requiredTech": "Rifling",
+        "obsoleteTech": "Electronics",
+        "promotions": ["Recon", "Hit and Run I", "Survivalism I"],
+        // "upgradesTo": "Spec Ops",
+        "attackSound": "shot"
     },
     {
         "name": "Rifleman",
