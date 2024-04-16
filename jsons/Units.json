@@ -493,7 +493,7 @@
         "range": 1,
         "requiredTech": "Bronze Working",
         "obsoleteTech": "Machinery",
-        "upgradesTo": "Crossbowman",
+        "upgradesTo": "Skirmisher",
         "promotions": ["Recon", "Hit and Run I"],
         "attackSound": "metalhit"
     },
