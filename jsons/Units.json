@@ -95,7 +95,7 @@
         "uniques": [
             "Never appears as a Barbarian unit"
         ],
-        "promotions": ["Recon", "First Contact I"],
+        "promotions": ["Recon"],
         "attackSound": "nonmetalhit"
     },
     {
@@ -110,7 +110,7 @@
         "cost": 25,
         "obsoleteTech": "Machinery",
         "upgradesTo": "Composite Bowman",
-        "promotions": ["Recon", "First Contact I"],
+        "promotions": ["Recon"],
         "attackSound": "arrow"
     },
     {
@@ -123,7 +123,7 @@
         "cost": 40,
         "obsoleteTech": "Machinery",
         "upgradesTo": "Skirmisher",
-        "promotions": ["Recon", "First Contact I"],
+        "promotions": ["Recon"],
         "attackSound": "nonmetalhit"
     },
     {
@@ -1933,9 +1933,9 @@
         "range": 1,
         "cost": 150,
         "requiredTech": "Rifling",
-        "obsoleteTech": "Electronics",
+        "obsoleteTech": "Radar",
         "promotions": ["Recon", "Hit and Run I", "Survivalism I"],
-        // "upgradesTo": "Spec Ops",
+        "upgradesTo": "Spec Ops",
         "attackSound": "shot"
     },
     {
@@ -2265,6 +2265,20 @@
         "attackSound": "shot"
     },
     {
+        "name": "Spec Ops",
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 34,
+        "rangedStrength": 34,
+        "range": 1,
+        "cost": 225,
+        "requiredTech": "Replaceable Parts",
+        "upgradesTo": "Paratrooper",
+        "promotions": ["Recon", "Hit and Run I", "Survivalism I", "Spotter I"],
+        "obsoleteTech": "Radar",
+        "attackSound": "shot"
+    },
+    {
         "name": "Voortrekker",
         "uniqueTo": "Boers",
         "replaces": "Great War Infantry",
@@ -2589,16 +2603,18 @@
     },
     {
         "name": "Paratrooper",
-        "unitType": "Paratrooping",
+        "unitType": "Scout",
         "movement": 2,
         "strength": 65,
+        "rangedStrength": 65,
+        "range": 1,
         "cost": 450,
         "requiredTech": "Radar",
         "uniques": [
             "May Paradrop up to [9] tiles from inside friendly territory",
-            "No movement cost to pillage",
             "Never appears as a Barbarian unit"
         ],
+        "promotions": ["Recon", "Hit and Run I", "Survivalism I", "Spotter I"],
         "obsoleteTech": "Nanotechnology",
         "upgradesTo": "Future Soldier",
         "attackSound": "shot"
@@ -2872,11 +2888,14 @@
     },
     {
         "name": "Future Soldier",
-        "unitType": "Paratrooping",
+        "unitType": "Scout",
         "movement": 2,
         "strength": 100,
+        "rangedStrength": 100,
+        "range": 1,
         "cost": 510,
         "requiredTech": "Nanotechnology",
+        "promotions": ["Recon", "Hit and Run I", "Hit and Run II", "Survivalism I", "Survivalism II", "Spotter I", "Spotter II"],
         "uniques": [
             "May Paradrop up to [40] tiles from inside friendly territory",
             "Never appears as a Barbarian unit"

@@ -143,12 +143,12 @@
     },
     {
         "name": "Amphibious",
-        "prerequisites": ["Shock I", "Drill I","Ambush Formation I"],
+        "prerequisites": ["Shock I", "Drill I", "Ambush Formation I", "Survivalism I"],
         "uniques": [
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping"]
+        "unitTypes": ["Sword","Gunpowder","Paratrooping", "Scout"]
     },
     {
         "name": "Medic",
@@ -172,12 +172,17 @@
         "name": "Recon",
         "uniques": [
             "Ignores terrain cost",
-            "This Unit gains [10] XP <upon discovering a Natural Wonder>",
+            "Can move immediately once bought",
+            "May enter foreign tiles without open borders",
+            "Comment [City-State territory always counts as friendly territory]",
+            "Invisible to non-adjacent units <in [Vegetation] tiles>",
+            "Can see invisible [Land] units",
+            "This Unit gains [15] XP <upon discovering a Natural Wonder>",
+            "This Unit gains [10] XP <upon discovering a [City] tile>",
             "This Unit gains [5] XP <upon discovering a [Ancient ruins] tile>",
             "This Unit gains [3] XP <upon discovering a [Strategic resource] tile>",
             "This Unit gains [2] XP <upon discovering a [Luxury resource] tile>",
-            "This Unit gains [1] XP <upon discovering a [Bonus resource] tile>",
-            "Can see invisible [Land] units"
+            "This Unit gains [1] XP <upon discovering a [Bonus resource] tile>"
         ],
         "unitTypes": ["Scout"],
         "row": 1,
@@ -186,6 +191,7 @@
     {
         "name": "Hit and Run I",
         "uniques": [
+            "[+1] Movement",
             "Can move after attacking",
         ],
         "unitTypes": ["Scout"]
@@ -194,8 +200,8 @@
         "name": "Hit and Run II",
         "prerequisites": ["Hit and Run I"],
         "uniques": [
-            "[+1] Movement"
-            "Ignores Zone of Control",
+            "[+1] Movement",
+            "Ignores Zone of Control"
         ],
         "unitTypes": ["Scout"]
     },
@@ -204,14 +210,15 @@
         "prerequisites": ["Hit and Run II"],
         "uniques": [
             "[+1] additional attacks per turn",
+            "No movement cost to pillage"
         ],
         "unitTypes": ["Scout"]
     },
     {
-        "name": "All In",
+        "name": "Deceptive",
         "prerequisites": ["Hit and Run III"],
         "uniques": [
-            "[+1] additional attacks per turn <upon defeating a [Military] unit>",
+            "[-15]% Strength for enemy [{Military} {Land}] units in adjacent [Land] tiles"
         ],
         "unitTypes": ["Scout"]
     },
@@ -219,7 +226,8 @@
         "name": "Survivalism I",
         "uniques": [
             "[+5] HP when healing <in [Foreign Land] tiles>",
-            "[+25]% Strength <when defending>"
+            "[+25]% Strength <when defending>",
+            "[-33]% maintenance costs"
         ],
         "unitTypes": ["Scout"]
     },
@@ -228,7 +236,8 @@
         "prerequisites": ["Survivalism I"],
         "uniques": [
             "[+5] HP when healing <in [Foreign Land] tiles>",
-            "[+25]% Strength <when defending>"
+            "[+25]% Strength <when defending>",
+            "[-33]% maintenance costs"
         ],
         "unitTypes": ["Scout"]
     },
@@ -237,7 +246,8 @@
         "prerequisites": ["Survivalism II"],
         "uniques": [
             "Unit will heal every turn, even if it performs an action",
-            "May withdraw before melee ([75]%)"
+            "May withdraw before melee ([75]%)",
+            "[-34]% maintenance costs"
         ],
         "unitTypes": ["Scout"]
     },
@@ -263,7 +273,7 @@
         "name": "Spotter I",
         "uniques": [
             "[+1] Sight",
-            "[+10]% Strength bonus for [{Military} {Land}] units within [1] tiles"
+            "[+5]% Strength bonus for [{Military} {Land}] units within [2] tiles"
         ],
         "unitTypes": ["Scout"]
     },
@@ -281,7 +291,7 @@
         "prerequisites": ["Spotter II"],
         "uniques": [
             "Can see over obstacles <after discovering [Radar]>",
-            "[+10]% Strength bonus for [Land] units within [3] tiles"
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles"
         ],
         "unitTypes": ["Scout"]
     },
@@ -299,48 +309,7 @@
         "name": "Stealthy",
         "prerequisites": ["Survivalism III", "Hit and Run III", "Spotter III"],
         "uniques": [
-            "Invisible to non-adjacent units",
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "First Contact I",
-        "uniques": [
-            "This Unit gains [1] XP <every [1] turns> <on foreign continents>"
-            "May enter foreign tiles without open borders",
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "First Contact II",
-        "prerequisites": ["First Contact I"],
-        "uniques": [
-            "This Unit gains [2] XP <upon defeating a [Barbarian] unit>",
-            "May capture killed [Barbarian] units",
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "First Contact III",
-        "prerequisites": ["First Contact II"],
-        "uniques": [
-            "Comment [May capture killed units from previous eras]",
-            "May capture killed [Ancient era] units <starting from the [Classical era]> <hidden from users>",
-            "May capture killed [Classical era] units <starting from the [Medieval era]> <hidden from users>",
-            "May capture killed [Medieval Era] units <starting from the [Renaissance era]> <hidden from users>",
-            "May capture killed [Renaissance Era] units <starting from the [Industrial era]> <hidden from users>",
-            "May capture killed [Industrial Era] units <starting from the [Modern era]> <hidden from users>",
-            "May capture killed [Modern Era] units <starting from the [Atomic era]> <hidden from users>",
-            "May capture killed [Atomic Era] units <starting from the [Information era]> <hidden from users>",
-            "May capture killed [Information Era] units <starting from the [Future era]> <hidden from users>"
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Forget Nothing",
-        "prerequisites": ["First Contact I", "Spotter I", "Survivalism I", "Hit and Run I"],
-        "uniques": [
-            "[+50]% XP gained from combat"
+            "Invisible to others",
         ],
         "unitTypes": ["Scout"]
     },
