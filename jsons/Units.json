@@ -487,9 +487,9 @@
         "name": "Javelin",
         "unitType": "Scout",
         "movement": 2,
-        "strength": 5,
+        "strength": 7,
         "cost": 40, // Same as an Archer
-        "rangedStrength": 7,
+        "rangedStrength": 11,
         "range": 1,
         "requiredTech": "Bronze Working",
         "obsoleteTech": "Machinery",
@@ -1235,15 +1235,15 @@
     {
         "name": "Skirmisher",
         "unitType": "Scout",
-        "movement": 3,
-        "strength": 7,
-        "rangedStrength": 11,
+        "movement": 2,
+        "strength": 9,
+        "rangedStrength": 16,
         "cost": 75, // Same as Composite Bowman
         "range": 1,
         "requiredTech": "Machinery",
         "obsoleteTech": "Rifling",
         "upgradesTo": "Ranger",
-        "promotions": ["Recon", "Hit and Run I"],
+        "promotions": ["Recon", "Hit and Run I", "Spotter I"],
         "attackSound": "metalhit"
     },
     {
@@ -1934,7 +1934,7 @@
         "cost": 150,
         "requiredTech": "Rifling",
         "obsoleteTech": "Radar",
-        "promotions": ["Recon", "Hit and Run I", "Survivalism I"],
+        "promotions": ["Recon", "Hit and Run I", "Spotter I", "Survivalism I"],
         "upgradesTo": "Spec Ops",
         "attackSound": "shot"
     },
@@ -2274,7 +2274,7 @@
         "cost": 225,
         "requiredTech": "Replaceable Parts",
         "upgradesTo": "Paratrooper",
-        "promotions": ["Recon", "Hit and Run I", "Survivalism I", "Spotter I"],
+        "promotions": ["Recon", "Hit and Run I", "Survivalism I", "Spotter I", "Quick Study"],
         "obsoleteTech": "Radar",
         "attackSound": "shot"
     },
@@ -2606,15 +2606,13 @@
         "unitType": "Scout",
         "movement": 2,
         "strength": 65,
-        "rangedStrength": 65,
-        "range": 1,
         "cost": 450,
         "requiredTech": "Radar",
         "uniques": [
             "May Paradrop up to [9] tiles from inside friendly territory",
             "Never appears as a Barbarian unit"
         ],
-        "promotions": ["Recon", "Hit and Run I", "Survivalism I", "Spotter I"],
+        "promotions": ["Recon", "Hit and Run I", "Survivalism I", "Survivalism II", "Spotter I", "Quick Study"],
         "obsoleteTech": "Nanotechnology",
         "upgradesTo": "Future Soldier",
         "attackSound": "shot"
@@ -2891,11 +2889,9 @@
         "unitType": "Scout",
         "movement": 2,
         "strength": 100,
-        "rangedStrength": 100,
-        "range": 1,
         "cost": 510,
         "requiredTech": "Nanotechnology",
-        "promotions": ["Recon", "Hit and Run I", "Hit and Run II", "Survivalism I", "Survivalism II", "Spotter I", "Spotter II"],
+        "promotions": ["Recon", "Hit and Run I", "Hit and Run II", "Survivalism I", "Survivalism II", "Spotter I", "Quick Study"],
         "uniques": [
             "May Paradrop up to [40] tiles from inside friendly territory",
             "Never appears as a Barbarian unit"
