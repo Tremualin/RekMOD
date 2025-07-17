@@ -101,7 +101,7 @@
             {
                 "name": "Citizenship",
                 "uniques": [
-                    "[-25]% construction time for [All] improvements",
+                    "Can build [all] improvements at a [+25]% rate",
                     "Free [Worker] appears",
                     "Provides [1] [Policies]"
                 ],
@@ -123,6 +123,7 @@
                 "name": "Representation",
                 "uniques": [
                     "Each city founded increases culture cost of policies [33]% less than normal",
+                    "[+1 Gold] from every [Monument]",
                     "Empire enters golden age",
                     "Provides [1] [Policies]"
                 ],
@@ -133,7 +134,7 @@
             {
                 "name": "Meritocracy",
                 "uniques": [
-                    "[+15]% [Gold] [in all cities connected to capital]",
+                    "[+15]% [Gold] from Trade Routes",
                     "[+1 Happiness] [in all cities connected to capital]",
                     "[-5]% Unhappiness from [Population] [in all non-occupied cities]",
                     "Provides [1] [Policies]"
@@ -331,13 +332,8 @@
                     "Free [Great Prophet] appears",
                     "[+1 Food, +3 Culture] from every [Holy site]",
                     "Provides a [Garden] in your first [4] cities for free",
-                    "May buy [Great Engineer] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great General] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Artist] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Writer] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Musician] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Admiral] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>",
-                    "May buy [Great Merchant] units for [1000] [Faith] [in capital] at an increasing price ([500]) <starting from the [Industrial era]>"
+                    "May buy [Piety Complete Building] buildings for [1875] [Faith] [in capital] <(modified by game speed)> <hidden from users> <starting from the [Industrial era]>",
+                    "Comment [May buy [{non-[Great Scientist]} {Great Person}] units for [1875] [Faith] [in capital] [(modified by game speed)] [once] [starting from the [Industrial era]]]"
                 ]
             }
         ]
@@ -346,9 +342,9 @@
         "name": "Aesthetics",
         "era": "Classical era",
         "uniques": [
-            "[Great Artist] is earned [33]% faster",
-            "[Great Writer] is earned [33]% faster",
-            "[Great Musician] is earned [33]% faster",
+            "[Great Artist] is earned [25]% faster",
+            "[Great Writer] is earned [25]% faster",
+            "[Great Musician] is earned [25]% faster",
             "Comment [Unlocks [Uffizi]]",
             "Provides [1] [Policies]"
         ],
@@ -427,6 +423,7 @@
                 "uniques": [
                     "[+100]% Production when constructing [Archaeologist] units [in all cities]",
                     "[+1 Culture] from every [Great Work]",
+                    //need implement "Shows Hidden Antiquity Sites"
                     "Free Social Policy",
                     "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "May buy [Great Writer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
@@ -558,6 +555,7 @@
                 "name": "Navigation School",
                 "uniques": [
                     "[+2 Science] [in all coastal cities]",
+                    "[+10]% Strength <for [Water] units>",
                     "Provides [1] [Policies]"
                 ],
                 "requires": ["Maritime Infrastructure","Naval Tradition"],
@@ -567,7 +565,7 @@
             {
                 "name": "Treasure Fleets",
                 "uniques": [
-                    "[+1 Gold, +1 Production, +1 Food] from every [Coast]",
+                    "[+1 Gold, +1 Production, +1 Food] from every [Coast] <in tiles without [resource]> <in tiles without [Improvement]>",
                     "[+1 Gold, +1 Production, +1 Food] from every [Ocean]",
                     "Provides [1] [Policies]"
                 ],
@@ -620,7 +618,7 @@
                 "name": "Entrepreneurship",
                 "uniques": [
                     "[-25]% maintenance on road & railroads",
-                    "[-25]% maintenance cost for buildings [in all cities]",
+                    "[-25]% maintenance cost for [all] buildings [in all cities]",
                     "Provides [2] [Trade Route]",
                     "Provides [1] [Policies]"
                 ],
@@ -780,7 +778,7 @@
             {
                 "name": "Patriotic War",
                 "uniques": [
-                    "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
+                    "[+10]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>",
                     "[+50]% XP gained from combat <for [non-[Air]] units>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
@@ -791,6 +789,7 @@
             {
                 "name": "Double Agents",
                 "uniques": [
+                    "[-100]% enemy spy effectiveness [in all cities connected to capital]",
                     //Unique for increasing chance of killing spy
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
@@ -825,11 +824,12 @@
             {
                 "name": "Resettlements",
                 "uniques": [
-                    "Gain a free [Workshop] [in all cities]",
-                    "Gain a free [Monument] [in all cities]",
-                    "Gain a free [Granary] [in all cities]",
-                    "Gain a free [Library] [in all cities]",
-                    "Gain a free [Aqueduct] [in all cities]",
+                    "[+4] population [in this city] <upon founding a city>",
+                    "Gain a free [Workshop] [in this city] <upon founding a city>",
+                    "Gain a free [Monument] [in this city] <upon founding a city>",
+                    "Gain a free [Granary] [in this city] <upon founding a city>",
+                    "Gain a free [Library] [in this city] <upon founding a city>",
+                    "Gain a free [Aqueduct] [in this city] <upon founding a city>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -920,7 +920,7 @@
             {
                 "name": "Communism",
                 "uniques": [
-                    "[+10]% [Science] [in all cities]",
+                    "Each city founded increases Science cost of Technologies [20]% less than normal",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -947,6 +947,7 @@
                 "uniques": [
                     "Free [Great Scientist] appears",
                     "Free [Great Engineer] appears",
+                    //need implement "Spaceflight Pioneers: May finish Spaceship parts with Great Engineers"
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -1003,15 +1004,29 @@
                 "column": 5
             },
             {
-                "name": "Covert Action",
+                "name": "Volunteer Army",
                 "uniques": [
-                    //Unique for rigging elections
-                    "Gain an extra spy"
+                    "[3] free [Foreign Legion] units appear",
+                    "[3] units cost no maintenance",
+                    "[Gunpowder] units gain the [Morale] promotion",
+                    "All newly-trained [Gunpowder] units [in all cities] receive the [Morale] promotion",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
                 "column": 7
+            },
+            {
+                "name": "Covert Action",
+                "uniques": [
+                    "[+100]% spy effectiveness [City-States]",
+                    //Unique for rigging elections
+                    "Gain an extra spy",
+                    "Provides [1] [Level 1 Ideology]",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 1,
+                "column": 9
             },
             {
                 "name": "Capitalism",
@@ -1023,42 +1038,18 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
-                "column": 9
+                "column": 11
             },
             {
                 "name": "Economic Union",
                 "uniques": [
                     "[+25]% [Gold] [in all cities]",
-                    "Provides [1] [Level 1 Ideology]",
-                    "Provides [1] [Policies]"
-                ],
-                "row": 1,
-                "column": 11
-            },
-            {
-                "name": "Arsenal of Democracy",
-                "uniques": [
-                    "[+20]% Production when constructing [Air] units [in all cities]",
-                    "[+20]% Production when constructing [Nuclear Missile] units [in all cities]",
-                    "[+25]% Strength for cities",
+                    "Provides [1] [Trade Route]",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
                 "row": 1,
                 "column": 13
-            },
-            {
-                "name": "Volunteer Army",
-                "uniques": [
-                    "[6] free [Foreign Legion] units appear",
-                    "[6] units cost no maintenance",
-                    "Provides [-1] [Level 1 Ideology]",
-                    "Provides [1] [Level 2 Ideology]",
-                    "Only available <when above [1] [Level 1 Ideology]>",
-                    "Provides [1] [Policies]"
-                ],
-                "row": 2,
-                "column": 2
             },
             {
                 "name": "Urbanization",
@@ -1072,7 +1063,7 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 2,
-                "column": 4
+                "column": 2
             },
             {
                 "name": "Free Mind",
@@ -1089,7 +1080,7 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 2,
-                "column": 6
+                "column": 4
             },
             {
                 "name": "Universal Suffrage",
@@ -1102,7 +1093,7 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 2,
-                "column": 8
+                "column": 6
             },
             {
                 "name": "New Deal",
@@ -1120,13 +1111,32 @@
                     "Provides [1] [Policies]"
                 ],
                 "row": 2,
+                "column": 8
+            },
+            {
+                "name": "Arsenal of Democracy",
+                "uniques": [
+                    "[+25]% Production when constructing [Air] units [in all cities]",
+                    "[+25]% Production when constructing [Nuclear Missile] units [in all cities]",
+                    "[+25]% Strength for cities",
+                    "[Fighter] units gain the [Dogfighting I] promotion",
+                    "All newly-trained [Fighter] units [in all cities] receive the [Dogfighting I] promotion",
+                    "Provides [-1] [Level 1 Ideology]",
+                    "Provides [1] [Level 2 Ideology]",
+                    "Only available <when above [1] [Level 1 Ideology]>",
+                    "Provides [1] [Policies]"
+                ],
+                "row": 2,
                 "column": 10
             },
             {
                 "name": "Universal Healthcare",
                 "uniques": [
-                    "[+100]% Production when constructing [Medical Lab] buildings [in capital]",
-                    "[+100]% Production when constructing [Hospital] buildings [in capital]",
+                    "[+100]% Production when constructing [Medical Lab] buildings [in all cities]",
+                    "[+100]% Production when constructing [Hospital] buildings [in all cities]",
+                    "[+3 Science] from every [Medical Lab]",
+                    "[+3 Science] from every [Hospital]",
+                    "[+5 Food] [in capital]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
@@ -1149,7 +1159,7 @@
             {
                 "name": "Treaty Organization",
                 "uniques": [
-                    "[+1 Production] from every specialist [in all cities]",
+                    "[+1 Production, +1 Gold] from every specialist [in all cities]",
                     "Provides [-1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 2 Ideology]>",
                     "Provides [1] [Policies]"
@@ -1221,9 +1231,9 @@
             {
                 "name": "Futurism",
                 "uniques": [
-                    "Gain [250] [Culture] (modified by game speed) <upon gaining a [Great Artist] unit>",
-                    "Gain [250] [Culture] (modified by game speed) <upon gaining a [Great Writer] unit>",
-                    "Gain [250] [Culture] (modified by game speed) <upon gaining a [Great Musician] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1309,12 +1319,12 @@
             {
                 "name": "Third Alternative",
                 "uniques": [
-                    "Double quantity of [Horses] produced",
-                    "Double quantity of [Iron] produced",
-                    "Double quantity of [Coal] produced",
-                    "Double quantity of [Oil] produced",
-                    "Double quantity of [Aluminum] produced",
-                    "Double quantity of [Uranium] produced",
+                    "[+100]% [Horses] resource production",
+                    "[+100]% [Iron] resource production",
+                    "[+100]% [Coal] resource production",
+                    "[+100]% [Oil] resource production",
+                    "[+100]% [Aluminum] resource production",
+                    "[+100]% [Uranium] resource production",
                     "[+5 Science, +5 Food] [in capital]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
@@ -1328,7 +1338,7 @@
                 "name": "Total War",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] Experience [in all cities]",
+                    "New [Military] units start with [15] XP [in all cities]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",

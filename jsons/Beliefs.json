@@ -1,6 +1,6 @@
 [
     {
-        "name": "Alters of Worship",
+        "name": "Altars of Worship",
         "type": "Pantheon",
         "uniques": ["[+20]% Production when constructing [All] wonders [in cities following this religion]"]
         // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
@@ -309,7 +309,7 @@
     {
         "name": "Initiation Rites",
         "type": "Founder",
-        "uniques": ["[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"]
+        "uniques": ["[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>"]
     },
     {
         "name": "Messiah",
@@ -365,7 +365,7 @@
     {
         "name": "Cathedrals",
         "type": "Follower",
-        "uniques": ["May buy [Cathedral] buildings for [150] [Faith] [in cities following this religion]"]
+        "uniques": ["Comment [Unlocks [Cathedral] [in cities following this religion]]"]
     },
     {
         "name": "Choral Music",
@@ -389,7 +389,7 @@
     {
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+1 Faith] from every [Wonder]"]
+        "uniques": ["[+1 Faith, +1 Culture] from every [Wonder]","[+1 Faith, +1 Culture] from every [Natural Wonder]"]
     },
     {
         "name": "Feed the World",
@@ -414,7 +414,7 @@
     {
         "name": "Gurdwaras",
         "type": "Follower",
-        "uniques": ["May buy [Gurdwara] buildings for [270] [Faith] [in cities following this religion]"]
+        "uniques": ["Comment [Unlocks [Gurdwara] [in cities following this religion]]"]
     },
     {
         "name": "Guruship",
@@ -437,17 +437,17 @@
     {
         "name": "Mandirs",
         "type": "Follower",
-        "uniques": ["May buy [Mandir] buildings for [270] [Faith] [in cities following this religion]"]
+        "uniques": ["Comment [Unlocks [Mandir] [in cities following this religion]]"]
     },
     {
         "name": "Mosques",
         "type": "Follower",
-        "uniques": ["May buy [Mosque] buildings for [150] [Faith] [in cities following this religion]"]
+        "uniques": ["Comment [Unlocks [Mosque] [in cities following this religion]]"]
     },
     {
         "name": "Pagodas",
         "type": "Follower",
-        "uniques": ["May buy [Pagoda] buildings for [200] [Faith] [in cities following this religion]"]
+        "uniques": ["Comment [Unlocks [Pagoda] [in cities following this religion]]"]
     },
     {
         "name": "Peace Gardens",
@@ -483,26 +483,30 @@
     {
         "name": "Synagogues",
         "type": "Follower",
-        "uniques": ["May buy [Synagogue] buildings for [200] [Faith] [in cities following this religion]"]
+        "uniques": ["Comment [Unlocks [Synagogue] [in cities following this religion]]"]
     },
     {
         "name": "Viharas",
         "type": "Follower",
-        "uniques": ["May buy [Vihara] buildings for [150] [Faith] [in cities following this religion]"]
+        "uniques": ["Comment [Unlocks [Vihara] [in cities following this religion]]"]
     },
 
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
     {
         "name": "Apostolic Palace",
         "type": "Enhancer",
-        "uniques": ["[+5 Production, +5 Gold, +5 Food, +5 Science, +5 Culture, +5 Faith] from every [Grand Temple]"]
+        "uniques": [
+            "[+5 Production, +5 Gold, +5 Food, +5 Science, +5 Culture, +5 Faith] from every [Grand Temple]",
+            "Only available <after adopting [Reformation]>"
+        ]
     },
     {
         "name": "City of God",
         "type": "Enhancer",
         "uniques": [
             "[+2 Food, +1 Science] from every [Holy site]",
-            "Free [Great Prophet] appears"
+            "Free [Great Prophet] appears",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
@@ -532,24 +536,29 @@
         "uniques": [
             "May buy [Art Hall] buildings for [150] [Faith] [in cities following this religion]",
             "May buy [Writing Auditorium] buildings for [150] [Faith] [in cities following this religion]",
-            "May buy [Vocal Chamber] buildings for [150] [Faith] [in cities following this religion]"
+            "May buy [Vocal Chamber] buildings for [150] [Faith] [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
         "name": "Indulgences",
         "type": "Enhancer",
-        "uniques": ["[+1 Food, +1 Culture, +1 Production, +1 Gold, +1 Faith] [in cities following this religion]"]
-        //Should be for all cities following the religion, but I can't do so as an enhancer
+        "uniques": [
+            //Should be for all cities following the religion, but I can't do so as an enhancer
+            "[+1 Food, +1 Culture, +1 Production, +1 Gold, +1 Faith] [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
+        ]
     },
     {
         "name": "Jesuit Education",
         "type": "Enhancer",
         "uniques": [
-            "May buy [Library] buildings for [150] [Faith] [in cities following this religion]",
+            "May buy [Library] buildings for [60] [Faith] [in cities following this religion]",
             "May buy [University] buildings for [220] [Faith] [in cities following this religion]",
             "May buy [Observatory] buildings for [260] [Faith] [in cities following this religion]",
             "May buy [Public School] buildings for [380] [Faith] [in cities following this religion]",
-            "May buy [Research Lab] buildings for [630] [Faith] [in cities following this religion]"
+            "May buy [Research Lab] buildings for [630] [Faith] [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
@@ -594,7 +603,8 @@
             "[+2 Gold, +2 Culture, +2 Faith] from every [Mandir]",
             "[+2 Gold, +2 Culture, +2 Faith] from every [Mosque]",
             "[+2 Gold, +2 Culture, +2 Faith] from every [Pagoda]",
-            "[+2 Gold, +2 Culture, +2 Faith] from every [Synagogue]"
+            "[+2 Gold, +2 Culture, +2 Faith] from every [Synagogue]",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
@@ -607,8 +617,11 @@
     {
         "name": "Swords into Ploughshares",
         "type": "Enhancer",
-        "uniques": ["[+20]% growth [in cities following this religion]"]
-        //Should be for all cities following the religion, but I can't do so as an enhancer
+        "uniques": [
+            //Should be for all cities following the religion, but I can't do so as an enhancer
+            "[+20]% growth [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
+        ]
     },
     {
         "name": "Work Ethic",
@@ -617,13 +630,17 @@
             "May buy [Workshop] buildings for [200] [Faith] [in cities following this religion]",
             "May buy [Factory] buildings for [450] [Faith] [in cities following this religion]",
             "May buy [Windmill] buildings for [320] [Faith] [in cities following this religion]",
-            "May buy [Hydro Plant] buildings for [520] [Faith] [in cities following this religion]"
+            "May buy [Hydro Plant] buildings for [520] [Faith] [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
         ]
     },
     {
         "name": "Underground Sect",
         "type": "Enhancer",
-        "uniques": ["[+1 Science] from every [4] global followers [in cities following this religion]"]
+        "uniques": [
+            "[+1 Science] from every [4] global followers [in cities following this religion]",
+            "Only available <after adopting [Reformation]>"
+        ]
     },
     {
         "name": "Unity of the Prophets",

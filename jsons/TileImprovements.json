@@ -505,7 +505,7 @@
             "Gives a defensive bonus of [100]%",
             "Adjacent enemy units ending their turn take [30] damage",
             "Can be built just outside your borders",
-            "Constructing it will take over the tiles around it and assign them to your closest city",
+            "Gain control over [all] tiles in a [1]-tile radius",
             "Removes removable features when built"
         ]
     },
@@ -708,6 +708,7 @@
         "uniques": [
             "[+1 Production] <after discovering [Navigation]>",
             "[+1 Culture] <after discovering [Flight]>",
+            "Must be next to [Land]",
             "Cannot be built on [resource] tiles",
             "Pillaging this improvement yields approximately [+20 Gold]"
         ]
@@ -727,6 +728,23 @@
         ],
         "techRequired": "Construction",
         "shortcutKey": "F"
+    },
+    {
+        // NOTE: NEEDS A SPRITE
+        "name": "Rock-hewn church",
+        "uniqueTo": "Aksum",
+        "techRequired": "Masonry",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "faith": 2,
+        "turnsToBuild": 7,
+        "uniques": [
+            "[+1 Faith] <after discovering [Theology]>",
+            "Comment [[+1 Faith] to every adjacent [Quarry]]",  // Implemented in Global temporarily
+            //"Comment [[+2 Faith] to every unit ending their turn]", // Lacking good support
+            "Cannot be built on [resource] tiles",
+            "Only available <with [0] to [0] neighboring [Rock-hewn church] tiles>",
+            "Pillaging this improvement yields approximately [+20 Gold]"
+        ]
     },
 
     // Unbuildable improvements

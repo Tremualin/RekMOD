@@ -57,8 +57,11 @@
         "innerColor": [190, 146, 61],
         "uniqueName": "Saint Elesbaan's Blessing",
         "uniques": [
-            "[+1 Production, +2 Faith] from every [Quarry]",
-            "[+1 Faith] from every [Quarry] <after discovering [Theology]>"
+            // Something Something Religion goes to every city immedietely
+            // Something Something Religion doesn't spread to other cities
+            //Note: this requires a unique regarding what it spreads to, not from
+            //"[-999]% Natural religion spread [in enemy cities]",
+            //"[+10000]% Natural religion spread [in your cities] <for [2] turns> <upon founding a Religion>"
         ],
         "cities": [
             "Aksum","Adulis","Qohaito","Matara","Yeha","Hawulti","Massawa","Zeila","Lalibela","Addi Galamo",
@@ -130,7 +133,7 @@
             "[+1 Gold] from every [Sea Trade Route (Food)] <hidden from users>",
             "[+1 Gold] from every [Sea Trade Route (Production)] <hidden from users>",
             "[+1 Gold] from every [Sea Trade Route (Gold)] <hidden from users>",
-            "Double quantity of [Oil] produced"
+            "[+100]% [Oil] resource production"
         ],
         "cities": [
             "Mecca","Medina","Damascus","Baghdad","Najran","Kufah","Basra","Khurasan","Anjar","Fustat",
@@ -151,8 +154,8 @@
         "startIntroPart2": "Evita, your people still remember your deeds to the people in the darkest times, because you defended the rights of Descamisados and Women in your great nation. Now it falls to you to build a nation of hope and justice for everyone. Will you answer the call? Can you build a civilization that will stand the test of time?",
         "declaringWar": "Prepare for war!",
         "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
+        "defeated": "Don't cry for me Argentina! The truth is I never left you all through my wild days, my mad existence, I kept my promise don't keep your distance.",
+        "introduction": "This place is the reason for my life, Argentina! Welcome, I'm Eva Perón.",
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
         "tradeRequest": "Better hurry, I may change my mind.",
@@ -160,8 +163,8 @@
         "innerColor": [244, 244, 86],
         "uniqueName": "Pride of the People",
         "uniques": [
-            "[-50]% construction time for [Pasture] improvements",
-            "[-50]% construction time for [Farm] improvements"
+            "Can build [Pasture] improvements at a [+100]% rate",
+            "Can build [Farm] improvements at a [+100]% rate"
         ],
         "cities": [
             "Buenos Aires","La Plata","Cordoba","Jujuy","Catamarca","La Rioja","Formosa","Parana","Posadas","Neuquen",
@@ -212,15 +215,15 @@
         "attacked": "I think you will come to regret this decision...most unwise.",
         "defeated": "We may be defeated, but our legacy will live on in the written word!",
         "introduction": "I welcome you to the great kingdom of Assyria...have you come to view my library?",
-        "neutralHello": "?",
-        "hateHello": "?",
+        "neutralHello": "Hello, go ahead",
+        "hateHello": "What do you want again?!",
         "tradeRequest": "Will you consider a trade?",
         "outerColor": [255,246,194],
         "innerColor": [191,126,9],
         "uniqueName": "Siege Warfare",
         "uniques": [
             "[+1] Movement <for [Siege] units>",
-            "Free [Great Writer] appears <upon discovering [Philosophy]>",
+            "Free [Great Writer] appears <upon discovering [Philosophy] technology>",
             "Instantly provides [1] [Great Work of Writing] <upon constructing [Royal Library] [in capital]>"
         ],
         "cities": [
@@ -234,16 +237,16 @@
     },
     {
         "name": "Australia",
-        "leaderName": "Henry Parker",
+        "leaderName": "Henry Parkes",
         "adjective": ["Australian"],
         "startBias": ["Coast"],
         "preferredVictoryType": "Cultural",
-        "startIntroPart1": "Greetings, most wise and prudent Henry Parker, father of the Australian Federation. Australia truly is a unique and ancient land, more so than any other, for its lands abound in nature's gifts and its shores have beckoned, welcomed, and harbored immigrants from afar for over 50,000 years. By the time you arrived in Sydney as an English immigrant in 1839, Australia was divided into thriving British colonies of undeniably vital significance. By 1889, as premier you had led the colony of New South Wales five times to achieve many great things that undoubtedly improved the lives of many. You will always be remembered, however, in the hearts of Australians, for being instrumental in the process of federating the Australian colonies into a single united nation, earning you the humble title of \"The father of the Australian Federation\". Thanks to your efforts, Australia today remains one of the most wealthy, prosperous, and modern countries in the developed world, and truly a sight to behold.",
-        "startIntroPart2": "O Henry Parker, your people call for you in joyful strains once more. Will you make the rest the world hear the thunder of Australia? Will you build a civilization that stands the test of time?",
+        "startIntroPart1": "Greetings, most wise and prudent Sir Henry Parkes, father of the Australian Federation. Australia truly is a unique and ancient land, more so than any other, for its lands abound in nature's gifts and its shores have beckoned, welcomed, and harbored immigrants from afar for over 50,000 years. By the time you arrived in Sydney as an English immigrant in 1839, Australia was divided into thriving British colonies of undeniably vital significance. By 1889, as premier you had led the colony of New South Wales five times to achieve many great things that undoubtedly improved the lives of many. You will always be remembered, however, in the hearts of Australians, for being instrumental in the process of federating the Australian colonies into a single united nation, earning you the humble title of \"The father of the Australian Federation\". Thanks to your efforts, Australia today remains one of the most wealthy, prosperous, and modern countries in the developed world, and truly a sight to behold.",
+        "startIntroPart2": "O Henry Parkes, your people call for you in joyful strains once more. Will you make the rest the world hear the thunder of Australia? Will you build a civilization that stands the test of time?",
         "declaringWar": "The Commonwealth of Australia formally declare war on you!",
         "attacked": "Australia will not sit idly, we shall defend our homeland 'till our dying breath!",
         "defeated": "I die happily, knowing that Australia was once a proud and mighty nation far exceeding the ideals of your unequivocally barbaric ways.",
-        "introduction": "The Commonwealth Of Australia greets you, fellow nation. I am Prime Minister Henry Parker and I look forward to cooperate with you!",
+        "introduction": "The Commonwealth Of Australia greets you, fellow nation. I am Prime Minister Henry Parkes and I look forward to cooperate with you!",
         "neutralHello": "Welcome, dear friend.",
         "hateHello": "Step forward, vile barbarian.",
         "tradeRequest": "Will you accept this deal?",
@@ -282,7 +285,7 @@
         "outerColor": [234,0,0],
         "innerColor": [255,255,255],
         "uniqueName": "Diplomatic Marriage",
-        "uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns."],
+        "uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [5] turns"],
         "cities": [
             "Vienna","Salzburg","Graz","Linz","Klagenfurt","Bregenz","Innsbruck","Kitzbühel","St. Pölten","Eisenstadt",
             "Villach","Zwettl","Traun","Wels","Dornbirn","Feldkirch","Amstetten","Bad Ischl","Wolfsberg","Kufstein",
@@ -311,7 +314,7 @@
         "innerColor": [184, 75, 0],
         "uniqueName": "Justice of Saladin",
         "uniques": [
-            "[-25]% construction time for [All] improvements",
+            "Can build [all] improvements at a [+25]% rate",
             "Gain a free [Ayyubid Burial Tomb] [in annexed cities]",
             "Gain a free [Ayyubid Burial Tomb] [in puppeted cities]"
         ],
@@ -373,7 +376,7 @@
         "innerColor": [213,249,255],
         "uniqueName": "Ingenuity",
         "uniques": [
-            "Free [Great Scientist] appears <upon discovering [Philosophy]>",
+            "Free [Great Scientist] appears <upon discovering [Philosophy] technology>",
             "[Great Scientist] is earned [25]% faster"
         ],
         "cities": [
@@ -391,15 +394,15 @@
         "leaderName": "Leopold II",
         "adjective": ["Belgian"],
         "startBias": ["Avoid [Coast]"],
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
+        "startIntroPart1": "Fledgling Belgium looks to you, Leopold II, King of the Belgians. In your forty-four years of rule, you strove to bring Belgium to the forefront of European progress - to make her a model for industry and her wealth the envy of lesser nations. With the help of the explorer Henry Morton Stanley, you privately laid claim to the Congo, whose immense natural wealth would be put to the advancement of your kingdom. Though your reputation abroad would ultimately succumb to controversy, your public works would nonetheless put the Belgian people on the path to progress. ",
+        "startIntroPart2": "King Leopold, once more Belgium must make haste if it is to maintain its stride with the march of progress. Can you take up the charge and bring wealth and ingenuity to your kingdom? Can you leave your people with great public works and develop Belgium into a modern nation? Can you build a civilization that can stand the test of time?",
         "declaringWar": "Prepare for war!",
         "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
+        "defeated": "Will you treat my savages kindly, as I have done?",
         "introduction": "Greetings to you. I am Leopold II Of Belgium, founder AND absolute ruler of the Congo Free State.",
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
+        "tradeRequest": "Would you be interested in a trade agreement with us? We've got chocolate.",
         "outerColor": [50, 50, 39],
         "innerColor": [243, 240, 14],
         "uniqueName": "Colonialist Riches",
@@ -435,8 +438,10 @@
         "innerColor": [38, 41, 80],
         "uniqueName": "The Great Trek",
         "uniques": [
-            "[+1 Food] from every [Farm] <in tiles without [Fresh Water]>",
-            "[+1 Culture] from every [Farm] <after discovering [Fertilizer]>"
+            "[+1 Food] from every [Farm] <with [3] to [6] neighboring [Farm] tiles>",
+            "[+1 Gold] from every [Farm] <with [4] to [6] neighboring [Farm] tiles>",
+            "[+1 Production] from every [Farm] <with [5] to [6] neighboring [Farm] tiles>",
+            "[+1 Culture, +1 Science] from every [Farm] <with [6] to [6] neighboring [Farm] tiles>"
         ],
         "cities": [ //Tweebuffelsmeteenskootmorsdoodgeskietfontein
             "Pretoria","Bloemfontein","Johannesburg","Pietermaritzburg","Klerksdorp","Pietersburg","Potchefstroom","Vryburg","Winburg","Bloemhof",
@@ -468,7 +473,8 @@
         "uniques": [
             "[Great Artist] is earned [100]% faster <during a Golden Age>",
             "[Great Writer] is earned [100]% faster <during a Golden Age>",
-            "[Great Musician] is earned [100]% faster <during a Golden Age>"
+            "[Great Musician] is earned [100]% faster <during a Golden Age>",
+            "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"
         ],
         "cities": [
             "Rio de Janeiro","Sao Paulo","Salvador","Brasilia","Fortaleza","Belo Horizonte","Manaus","Curitiba","Recife","Porto Alegre",
@@ -502,7 +508,8 @@
             "Comment [-33% maintenance costs for Water units]",
             "Comment [Water units may heal outside of friendly territory]",
             "Comment [Water units can build Water improvements on tiles]",
-            "[Water] units gain the [Sea Nomads] promotion <hidden from users>"
+            "[Water] units gain the [Sea Nomads] promotion <hidden from users>",
+            "[Water] units gain the [Supply] promotion <hidden from users>"
         ],
         "cities": [
             "Bandar Brunei","Manila","Sulu","Cebu","Maguindanao","Sarawak","Namayan","Tondo","Ma-I","Madja-As",
@@ -686,8 +693,8 @@
         "innerColor": [148,170,255],
         "uniqueName": "Druidic Lore",
         "uniques": [
-            "[+1 Faith] from every [Forest] <in tiles without [Improvement]>",
-            "[+1 Faith] from every [Forest] <with [3] to [6] neighboring [Forest] tiles><in tiles without [Improvement]>"
+            "[+1 Faith] [in all cities] <with [1] to [2] neighboring [{unimproved} {Forest}] tiles>",
+            "[+2 Faith] [in all cities] <with [3] to [6] neighboring [{unimproved} {Forest}] tiles>"
         ],
         "cities": [
             "Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth","Penzance",
@@ -697,6 +704,77 @@
         ],
         "spyNames": [
             "Crìsdean","Siobhán","Seamus","Ffion","Pádraig","Deirdre","Mr. Quinn","Éadaoin","Alwyn","Col Ceathar"
+        ]
+    },
+    {
+        "name": "Chile",
+        "leaderName": "Bernardo O’ Higgens",
+        "adjective": ["Chilean"],
+        "startBias": ["Coast"],
+        "startIntroPart1": "Hail to you, O' Great Captain, General, and Admiral, Bernardo O'Higgens Riquelme, father of the Chilean nation. With tenacity and skill, you led the nascent Chile to its liberty. Propelled by Napoleon's conquest of Spain and inspired by the ideals sweeping across the new world, your role in Chile's independence war would see you rise to the position of Supreme Director. In this position, you would proclaim an independent republic, and in so doing would fuel the flames of Latin independence.",
+        "startIntroPart2": "Honoured leader, the Chilean people look back upon your deeds with pride and inspiration. It is once more your charge to ensure their liberty and independence. Can you lead them to prosperity? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+        "outerColor": [186, 186, 160],
+        "innerColor": [28, 76, 107],
+        "uniqueName": "By Reason or By Force",
+        "uniques": [
+            "Gain control over [All] tiles in a [1]-tile radius <upon building a [Fishing Boats] improvement>",
+            "Gain control over [All] tiles in a [1]-tile radius <upon building a [Dry Dock] improvement>",
+            "Free [Great Admiral] appears <upon discovering [Compass] technology>",
+            "Comment [[Sword] Units  inflict a -25% Combat Penalty to adjacent enemy [Water] Units]",
+            "Comment [[Gunpowder] Units  inflict a -25% Combat Penalty to adjacent enemy [Water] Units]",
+            "Comment [[Melee Water] Units inflict this penalty to adjacent enemy [Land] Units]",
+            "[Sword] units gain the [By Reason] promotion <hidden from users>",
+            "[Gunpowder] units gain the [By Reason] promotion <hidden from users>",
+            "[Melee Water] units gain the [By Force] promotion <hidden from users>"
+        ],
+        "cities": [
+            "Santiago de Chile","Concepción","Valparaiso","La Serena","Valdivia","Castro","Talca","Copiapó","Iquique","Arica","Puerto Montt"
+            "Antofagasta","Punta Arenas","Temuco","La Ligua","San Felipe","Vallenar","San Fernando","Calama","Putre","Linares",
+            "Cauquenes","Lebu","General Carrera","Cochrane","Porvenir","Melipilla","Cachagua","Neltume","Los Andes","Pichilemu",
+            "Illapel","Lluscuma"
+        ],
+        "spyNames": [
+            "Mamo Contreras","Arellano Stark","Paul Schafer","Alvaro Corbalán","Odlanier Mena","Humberto Gordon","Hugo Salas","Gustavo Abarzúa","Ingrid Olderock","La Pepa"
+        ]
+    },
+    {
+        "name": "Colombia",
+        "leaderName": "Simon Bolivar",
+        "adjective": ["Columbian"],
+        "startBias": ["Avoid [Coast]", "Forest", "Plains"],
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "Your actions leave us no choice but to take up arms. Colombia, under the enduring legacy of Simón Bolívar, will defend its freedom and sovereignty at all costs!",
+        "attacked": "You have struck our land, but you underestimate the resilience of our people!",
+        "defeated": "This setback is temporary. The spirit of liberty that Bolívar ignited in our hearts will never fade—Colombia will rise again, stronger than ever!",
+        "introduction": "I am Simón Bolívar, leader of Colombia. Together, we can forge a path of peace and cooperation—or face the consequences of conflict.",
+        "neutralHello": "Greetings. May this meeting mark the beginning of mutual understanding and shared prosperity between our nations.",
+        "hateHello": "Your hostility is clear, but know this: Colombia, inspired by Bolívar’s courage, will never back down from a challenge.",
+        "tradeRequest": "Let us unite through trade, exchanging resources to strengthen our nations and build a brighter future for both our peoples.",
+        "outerColor": [51, 28, 63],
+        "innerColor": [235, 226, 79],
+        "uniqueName": "Independence of the People",
+        "uniques": [
+            "[+1 Food] from every [Lumber mill]",
+            "[+1 Gold] from every [Lumber mill]",
+            "[+1 Science] from every [Lumber mill] <after discovering [Chemistry]>"
+        ],
+        "cities": [
+            "Bogotá", "Caracas", "Quito", "Panamá", "Pamplona", "Cartagena de Indias", "Portobelo", "Guayaquil",
+            "Maracaibo", "Cumaná", "Puerto Cabello", "Popayán", "Angostura", "Santiago de Cali", "Tunja", "Medellín",
+            "Santa Marta", "Antioquía", "Mariquita", "Neiva", "Chocó", "Casanare", "Pamplona", "Socorro", "Margarita",
+            "Barinas", "Trujillo"
+        ],
+        "spyNames": [
+            "Rodriguez", "San Martin", "Castilla", "Artigas", "Hidalgo", "Saenz", "Miranda",
+            "Piar", "Arenales", "Mariscal"
         ]
     },
     {
@@ -822,7 +900,8 @@
             "[+1 Happiness] from every [Police Station]",
             "[+1 Happiness] from every [Constabulary]",
             "[+100]% Production when constructing [Police Station] buildings [in all cities]",
-            "[+100]% Production when constructing [Constabulary] buildings [in all cities]"
+            "[+100]% Production when constructing [Constabulary] buildings [in all cities]",
+            "Gain an extra spy <upon entering the [Renaissance era]>"
         ],
         "cities": [
             "London","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
@@ -974,7 +1053,7 @@
         "outerColor": [65, 58, 21],
         "innerColor": [157, 201, 107],
         "uniqueName": "Oppidum of Bibracte",
-        "uniques": ["Gain a free [Murus Gallicus] [in capital] <upon discovering [Mining]>"],
+        "uniques": ["Gain a free [Murus Gallicus] [in capital] <upon discovering [Mining] technology>"],
         "cities": [
             "Bibracte","Gergovia","Tolosa","Lugdunum","Durocortorum","Bagacum","Nemetocenna","Luteria","Samarobriva","Entremont",
             "Burdigala","Nemausus","Vienne","Brixia","Sinigaglia","Numantia","Termantia","Alesia","Genevensis","Tricassium",
@@ -1020,6 +1099,36 @@
         ],
         "spyNames": [
             "Johann","Marlene","Wilhelm","Eva","Heinz","Horst","Carl","Viper","Albrecht","Anton"
+        ]
+    },
+	{
+        "name": "Georgia",
+        "leaderName": "Tamar",
+        "adjective": ["Georgian"],
+        "startBias": ["Avoid [Coast]"],
+        "startIntroPart1": "The mountains echo with the strength of our ancestors.",
+        "startIntroPart2": "Georgia rises, proud and unbroken.",
+        "declaringWar": "Your actions dishonor the legacy of peace. Now, feel the might of Georgia!",
+        "attacked": "Your treachery knows no bounds! Georgia will endure, and you will fall!",
+        "defeated": "The proud heart of Georgia is silent... but her spirit will rise again.",
+        "introduction": "Gamarjoba. In the name of the ancient land of Kartli, welcome.",
+        "neutralHello": "The mountains stand still. What do you seek?",
+        "hateHello": "Enough talk! What is it this time?",
+        "tradeRequest": "This trade honors us both. Shall we proceed?",
+        "outerColor": [149,129,189],
+        "innerColor": [254,254,51],
+        "uniqueName": "Ecclesiastical Architecture",
+        "uniques": [
+            "Comment [Buildings unlocked by religious beliefs (except Houses of Worship) are built using [Production] instead (cost equal to 50% of the required [Faith])]",
+            "Comment [These buildings provide [+2 Production]]"
+        ],
+        "cities": [
+            "Tbilisi","Kutaisi","Batumi","Sokhumi","Zugdidi","Rust'avi","P'ot'i","Gori","Ts'khinvali","Samtredia",
+            "Khashuri","Senak'i","Zestap'oni","Telavi","Ozurgeti","Marneuli","Kobuleti","Tqvarch'eli","Akhaltsikhe","Tsqaltubo",
+            "Kaspi"
+        ],
+        "spyNames": [
+            "Giorgi","Mariam","Davit","Tamar","Levan","Nino","Zurab","Salome","Vazha","Ekaterine"
         ]
     },
     {
@@ -1073,7 +1182,10 @@
         "outerColor": [29, 26, 26],
         "innerColor": [181, 214, 207],
         "uniqueName": "Drauhtinon",
-        "uniques": ["[+1] Movement <for [Melee] units>"],
+        "uniques": [
+            "[+1] Movement <for [Sword] units>",
+            "[+1] Movement <for [Gunpowder] units>"
+        ],
         "cities": [
             "Arheimar","Aujum","Potaissa","Apulon","Tyras","Sarmizegetusa","Argidava","Olite","Tolosa","Olbia",
             "Reccopolis","Toletum","Pityus","Burdigala","Gerunda","Aiadava","Thessalonica","Victoriacum","Carnuntum","Sirmium",
@@ -1136,7 +1248,8 @@
         "uniqueName": "Bronze and Iron",
         "uniques": [
             "Starts with [Mining]",
-            "[+1 Gold] from every [Mine]"
+            "[+1 Gold] from every [Mine]",
+            "[+2 Gold] from every [Mine] <with [3] to [6] neighboring [Mine] tiles>"
         ],
         "cities": [
             "Hattusa","Nesa","Kussara","Tuwanuwa","Hupisna","Purushanda","Samuha","Lusna","Alacohoyuk","Sapinuwa",
@@ -1433,16 +1546,25 @@
         "uniqueName": "Rinascimento",
         "uniques": [
             "[+1 Culture] from every specialist [in all cities]",
-            "Comment [Empire enters golden age upon completing a policy branch]",
-            "Empire enters golden age <upon adopting [Tradition Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Liberty Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Honor Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Piety Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Aesthetics Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Patronage Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Exploration Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Commerce Complete]> <hidden from users>",
-            "Empire enters golden age <upon adopting [Rationalism Complete]> <hidden from users>"
+            "Comment [Receive a burst of Golden Age points upon completion of a Policy Tree, and if already in a Golden Age, extend it instead.]",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Tradition Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Liberty Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Honor Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Piety Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Aesthetics Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Patronage Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Exploration Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Commerce Complete]> <hidden from users>",
+            "Empire enters a [5]-turn Golden Age <during a Golden Age> <upon adopting [Rationalism Complete]> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Tradition Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Liberty Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Honor Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Piety Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Aesthetics Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Patronage Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Exploration Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Commerce Complete]> <when not in a Golden Age> <hidden from users>",
+            "Instantly gain [250] [Golden Age points] <(modified by game speed)> <upon adopting [Rationalism Complete]> <when not in a Golden Age> <hidden from users>"
         ],
         "cities": [
             "Roma","Milan","Naples","Turin","Florence","Genoa","Bari","Palermo","Cagliari","Catania",
@@ -1472,7 +1594,7 @@
         "innerColor": [184,0,0],
         "uniqueName": "Bushido",
         "uniques": [
-            "Damage is ignored when determining unit Strength <for [All] units>",
+            "No damage penalty for wounded units <for [All] units>",
             "[+1 Culture] from every [Fishing Boats]",
             "[+2 Culture] from every [Atoll]"
         ],
@@ -1525,9 +1647,9 @@
         "attacked": "May Vishny's wrath engulf you into ruin and despair!",
         "defeated": "What do you mean it's the end? My workd it's yet to be finished! Let me build... just... one... more... temple...",
         "introduction": "You look upon the King of Angkor, Emperor of Khmer, rightful Ruler of the World and Master of the Universe! We've just met, but I can already tell you're quite an interesting individual.",
-        "neutralHello": "Greetings.",
+        "neutralHello": "Welcome",
         "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
+        "tradeRequest": "Heaven smiles upon you - as do the Khmer. Isn't it great deal?",
         "outerColor": [182, 101, 191],
         "innerColor": [0, 0, 178],
         "uniqueName": "Grand Baray of Angkor",
@@ -1558,7 +1680,6 @@
         "outerColor": [119,59,129],
         "innerColor": [194,222,155],
         "uniqueName": "Merchant Economy",
-        //"uniqueText": "+10% Growth in all cities.\n\n[+4 Gold] from [Food] and [Production] Trade Routes",
         "uniques": [
             "[+10]% growth [in all cities]",
             "[+4 Gold] from every [Land Trade Route (Food)]",
@@ -1577,11 +1698,11 @@
     },
     {
         "name": "Kongo",
-        "leaderName": "Mvemba a Nzinga",
+        "leaderName": "Nzinga Mbande",
         "adjective": ["Kongo"],
         "startBias": ["Avoid [Coast]","Forest"],
         "preferredVictoryType": "Cultural",
-        "startIntroPart1": "Hail to you, brave Mvemba a Nzinga, Queen of the Ndongo and Matamba, whose beauty is matched only by your cunning. Your Kingdom is part of the great Kingdom of Kongo, situated at the mouth of the mighty Congo River in west-central Africa. You defied tradition by claiming two thrones and are remembered for standing bravely against the onslaught of European imperialism. When the Portuguese invaded your lands, you escaped death and shrewdly manipulated the Dutch into sending you aid. Together you turned back the army of the Portuguese at the Battle of Kombi. Yet, ever faced with threats both inside and out, the never-ending war took its tool, and in the end not even your bravery could stop the march of foreign crowns.",
+        "startIntroPart1": "Hail to you, brave Nzinga Mbande, Queen of the Ndongo and Matamba, whose beauty is matched only by your cunning. Your Kingdom is part of the great Kingdom of Kongo, situated at the mouth of the mighty Congo River in west-central Africa. You defied tradition by claiming two thrones and are remembered for standing bravely against the onslaught of European imperialism. When the Portuguese invaded your lands, you escaped death and shrewdly manipulated the Dutch into sending you aid. Together you turned back the army of the Portuguese at the Battle of Kombi. Yet, ever faced with threats both inside and out, the never-ending war took its tool, and in the end not even your bravery could stop the march of foreign crowns.",
         "startIntroPart2": "Mighty Queen of Kongo, your prople has been chained and sold into slavery. Yet, your old alliances stand firm and await your call. It is time to return, to instill your strenght and spirit and lead your people to battle once more. Can you restore your war-torn land? Can you build a civilization that will stand the test of time?",
         "declaringWar": "Me and my warriors come to set your lands and your flags on fire!",
         "attacked": "Go ahead, send your soldiers! We will melt into the trees and strike at you from the stones.",
@@ -1589,7 +1710,7 @@
         "introduction": "I am Nzinga, Muchino a Muhato of the Ndongo and Matamba. Please sit anywhere, and do not look down upon me and dismiss me as a woman: I am the equal of any King, both in governance and in battle.",
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
+        "tradeRequest": "Let us exchange ideas, gold, and good... just not land." ,
         "outerColor": [255,227,151],
         "innerColor": [96,11,99],
         "uniqueName": "Heart of Africa",
@@ -1684,7 +1805,7 @@
         "innerColor": [220,190,92],
         "uniqueName": "Macedonian Discipline",
         "uniques": [
-            "Free [Hetairoi] appears <upon discovering [Horseback Riding]>",
+            "Free [Hetairoi] appears <upon discovering [Horseback Riding] technology>",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Barracks]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Military Academy]",
             "[+1 Food, +1 Culture, +1 Happiness] from every [Armory]"
@@ -1715,7 +1836,17 @@
         "outerColor": [255,246,13],
         "innerColor": [8,117,46],
         "uniqueName": "Sacred Hills of Imerina",
-        "uniques": ["[+6 Culture, +6 Faith] from every [Holy site]"],
+        "uniques": [
+            "[Faith] cost of purchasing items in cities [-33]%",
+            "[+1 Culture, +1 Faith] from every [Holy site]",
+            "Comment [[[+1 Culture, +1 Faith] from every [Holy site]] [from each adjecent [Holy site]]]",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [1] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [2] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [3] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [4] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [5] to [6] neighboring [Holy site] tiles> <hidden from users>",
+            "[+1 Culture, +1 Faith] from every [Holy site] <with [6] to [6] neighboring [Holy site] tiles> <hidden from users>"
+        ],
         "cities": [
             "Antananarivo","Ambohimanga","Ambohitrabiby","Ambohidratrimo","Analamanga","Antsahadinta","Ambatofinandrahana","Ambohimahamasina","Amparafaravola","Antsirambazaha",
             "Arivonimamo","Ambohijoky","Antongona","Antsirabe","Antsiranana","Ambovombe","Ambalavao","Ambatondrazaka","Tsinjoarivo","Imerimanjaka",
@@ -1731,12 +1862,12 @@
         "adjective": ["Manchurian"],
         "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Domination",
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
+        "startIntroPart1": "The Eight Banners bow down before you, oh great Nurhaci, Brilliant Khan Who Benefits All Nations, unifier of the Manchu peoples! Under your rule, a collection of scattered Jurchen tribes were unified into a great empire! Your reign was a period of great victory and progress for the Manchu people, consisting of constantly successful campaigns against the Ming, the Koreans, the Mongols and other Jurchen tribes. Truly, no empire in East Asia could withstand the might of the Manchu! Your reign is notable for more than sheer conquest, however, with great and important leaps in Manchu culture, such as the funding of the Eight Banners and the creation of a Manchu Alphabet. And your successors would build off your great achievements, conquering the entirety of China and founding one of the greatest dynasties of all time!",
+        "startIntroPart2": "Oh, bold and noble Khan and Chieftain, the empire your actions shaped has fallen, and the Manchu have been reduced to a mere minority group in another nation’s empire. But your people call your name unto the heavens, desperate for your strong and wise leadership to lead them to glory once more! Will you ride with your Bannermen to the field of battle once more? Will you build a civilization to stand the test of time?",
         "declaringWar": "Prepare for war!",
         "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
+        "defeated": "You have bested me, warrior. I have no choice but to submit. Which banner shall I be allocated to? What do you mean, 'we don't sort our troops by banner'?!", 
+        "introduction": "You stand before Nurhaci, Brilliant Khan Who Benefits All Nations. Will you be a worthwhile ally or mere fodder for my armies?",
         "neutralHello": "Greetings.",
         "hateHello": "What do you want?",
         "tradeRequest": "Better hurry, I may change my mind.",
@@ -1746,8 +1877,10 @@
         "uniques": [
             "[-100]% maintenance costs <for [Mounted] units>",
             "[-100]% maintenance costs <for [Armor] units>",
+            "[-100]% maintenance costs <for [Bomber] units>",
             "[Mounted] units gain the [Volley] promotion",
-            "[Armor] units gain the [Volley] promotion"
+            "[Armor] units gain the [Volley] promotion",
+            "[Bomber] units gain the [Volley] promotion"
             //"[+100]% Production when constructing [Stable] buildings [in all cities]",
             //"[+1 Gold] from every [Stable]"
         ],
@@ -1781,7 +1914,7 @@
         "uniques": [
             "[Land] units gain the [Dharma] promotion <hidden from users>",
             "[Water] units gain the [Dharma] promotion <hidden from users>",
-            "Comment [Non-Air Units receive a -15% Combat Penalty when attacking, and a +15% Combat Bonus when defending]"
+            "Comment [Non-Air Units receive a -10% Combat Penalty when attacking, and a +10% Combat Bonus when defending]"
         ],
         "cities": [
             "Pataliputra","Sarnath","Ujjain","Mathura","Indraprastha","Suvarnagiri","Tamralipti","Varanasi","Lumbini","Toshali",
@@ -1843,7 +1976,7 @@
         "uniqueName": "Encomienda System",
         "uniques": [
             "[-20]% City-State Influence degradation",
-            "Free [Worker] appears <upon discovering [Pottery]>"
+            "Free [Worker] appears <upon discovering [Pottery] technology>"
         ],
         "cities": [
             "Mexico City","Guadalajara","Tijuana","Juarez","Puebla","Monterrey","Veracruz","Acapulco","Mexicali","Oaxaca",
@@ -1877,7 +2010,7 @@
             "[+30]% Strength <vs [City-States]>",
             "[+1] Movement <for [Mounted] units>",
             "[+1] Movement <for [Armor] units>",
-            "Double quantity of [Horses] produced",
+            "[+100]% [Horses] resource production <after discovering [Chivalry]>",
             "[+1 Food] from every [Horses] <after discovering [Chivalry]>"
         ],
         "cities": [
@@ -1910,7 +2043,7 @@
         "uniqueName": "Glory of Al-Andalus",
         "uniques": [
             "[+30]% Production when constructing [All] buildings [in all cities] <during the [Medieval era]>",
-            "[+15]% Production when constructing [All] buildings [in all cities] <starting from the [Renaissance era]>"
+            "[+15]% Production when constructing [All] buildings [in all cities] <during the [Renaissance era]>"
         ],
         "cities": [
             "Córdoba","Granada","Valencia","Murcia","Toledo","Zaragoza","Seville","Malága","Almeria","Salamanca",
@@ -2067,14 +2200,14 @@
         "leaderName": "Harald Hardrada",
         "adjective": ["Norwegian"],
         "startBias": ["Coast"],
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
+        "startIntroPart1": "Harald Hardrada, the last great Viking warrior-king, your name echoes through the ages. From your early days as a mercenary in the Byzantine Empire to your rise as King of Norway, your life has been a testament to strength, cunning, and unyielding ambition. Your campaigns have set the stage for a new era of Norse dominance. The winds of fate howl through the fjords, calling you to greatness once more.",
+        "startIntroPart2": "The Great King of Norway, The Thunderbolt of the North, your people call upon you once more. Will you lead them to glory as you did in the battles of Stiklestad and Niså? Can you reclaim the throne of England and show the world the true power ? Will you build a civilization that will stand the test of time?",
         "declaringWar": "Now comes a storm you cannot escape. You can only hope for a quick death! To victory! To Odin's halls!",
         "attacked": "This will make a great saga! The skalds will sing of my valor! Let us see if the same will go to you!",
         "defeated": "Joke's on you. I will join the einherjar in Valhalla and feast, while you toil away here.",
         "introduction": "Harald Sigurdsson stands before you: a Viking unlike any the seas and lands have ever known. Hah, are you afraid?",
         "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
+        "hateHello": "Your seas are unprotected, friend. All too easy to raid.",
         "tradeRequest": "I have sent you traders with gifts of rune stones. They are powerful. I mean, the stones, not the traders.",
         "outerColor": [8,30,87],
         "innerColor": [238,180,0],
@@ -2109,7 +2242,7 @@
         "outerColor": [193,159,86],
         "innerColor": [0,0,0],
         "uniqueName": "Ta-Seti",
-        "uniques": ["Free [Apedemaks Bow] appears <upon discovering [Pottery]>"],
+        "uniques": ["Free [Apedemaks Bow] appears"],
         "cities": [
             "Meroe","Napata","Kerma","Nuri","Kawa","Sadeinga","Iken","Buhen","Faras","Pademe",
             "Shaat","Heh","Dengeil","Miam","Tombos","Kurgus","Debba","Bugdumbush","Ukma","Defeia",
@@ -2249,6 +2382,38 @@
         ]
     },
     {
+        "name": "Philippines",
+        "leaderName": "Emilio Aguinaldo",
+        "adjective": ["Filipino"],
+        "startBias": ["Coast"],
+        "startIntroPart1": "Long may you live, esteemed General Emilio Aguinaldo, first President of the Republic of the Philippines, and leader of your nation in one of its most glorious times! The Philippines is a young nation, born of the colonial Spanish East Indies, whose many diverse peoples became one under the yoke of the foreign empire. The great Revolution of 1896 and it glorious victories expelled the hated Spanish from the homeland, but those treacherous Americans snatched that hard-earned freedom away shortly after, ending the Republic in 1901, three years after its establishment. The Philippines would not regain its independence until 1946.",
+        "startIntroPart2": "Great President Aguinaldo, can you once more lead the Filipino people into another great era? Your people once more seek to make their nation free from foreign domination and subservience. Will you seek it through diplomacy, or will you stand and fight? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "Your actions leave us no choice but to resort to war. Prepare to face the determination of the Filipino people!",
+        "attacked": "You have dared to attack our land! The Philippines will not fall without a fierce and honorable fight!",
+        "defeated": "Defeat today does not mean the end. We will rise again, stronger than ever!",
+        "introduction": "Welcome. I am Emilio Aguinaldo, leader of the Filipino people. Peace between us will be based on mutual respect.",
+        "neutralHello": "Greetings. Our meeting should be fruitful for both sides.",
+        "hateHello": "I see hostility in your eyes. But know this: the Filipino people will never back down.",
+        "tradeRequest": "Let us work together and exchange resources for the prosperity of our nations.",
+        "outerColor": [1, 204, 187],
+        "innerColor": [100, 13, 4],
+        "uniqueName": "The Good Fight",
+        "uniques": [
+            "[+2] Movement <for [Civilian] units> <in [your] tiles>",
+            "Comment [The first two Cities you settle (after your Capital) begin with +1 extra Citizen.]"
+        ],
+        "cities": [
+            "Malolos","Cavite El Viejo","San Juan del Monte","Pasig","Pateros","Tagig","Kalookan","San Pedro de Makati",
+            "Mandaluyong","San Francisco de Malabon","Noveleta","Imus","Mariquina","Antipolo","Bacoor","Montalban",
+            "Las Pinas","Naik","Tejeros","Maragondon","Biak-na-bato","Capiz","Jaro","Guagua","San Fernando","Angono",
+            "Calamba","Bocaue","Baler","Bacolor","Kakarong","Bacolod","Cebu","Nueva Caceres","Carcar","Nueva Vergara",
+            "San Isidro","Bamban","Tarlac","Bayombong","Palanan"
+        ],
+        "spyNames": [
+            "Antonio","Crisostomo","Gregoria","Apolinario","Andres","Miguel","Pio","Mariano","Tomas","Marcela"
+        ]
+    },
+    {
         "name": "Phoenicia",
         "leaderName": "Hiram",
         "adjective": ["Phoenician"],
@@ -2266,8 +2431,9 @@
         "innerColor": [234,201,52],
         "uniqueName": "Skillful Traders",
         "uniques": [
-            "Provides [2] [Trade Route]",
-            "Free [Square Sail Ship] appears <upon discovering [Sailing]>"
+            "Gain [75] [Gold] <(modified by game speed)> <upon founding a city> <after discovering [Optics]>",
+            "[+1] population [in this city] <upon founding a city> <after discovering [Optics]>",
+            "Free [Square Sail Ship] appears <upon discovering [Sailing] technology>"
         ],
         "cities": [
             "Tyre","Sidon","Ugarit","Berytus","Byblos","Arvad","Akko","Kition","Tripolis","Baalbek",
@@ -2281,7 +2447,7 @@
     },
     {
         "name": "Poland",
-        "leaderName": "Caismir III",
+        "leaderName": "Casimir III",
         "adjective": ["Polish"],
         "startBias": ["Avoid [Coast]","Plains"],
         "preferredVictoryType": "Cultural",
@@ -2329,7 +2495,7 @@
         "uniques": [
             "Enables embarkation for land units",
             "Enables [All] units to enter ocean tiles",
-            "Defense bonus when embarked <for [All] units>",
+            "[+100]% Strength <when defending> <when [Embarked]> <for [All] units>",
             "[+1] Movement <for [Embarked] units>",
             "[+2] Sight <for [Embarked] units>",
             "[+10]% Strength <within [2] tiles of a [Moai]>"
@@ -2362,7 +2528,7 @@
         "innerColor": [8,25,115],
         "uniqueName": "Mare Clausum",
         "uniques": [
-            "[+3 Gold] from every [Luxury resource]",
+            "[+3 Gold] from every [Trade Route]",
             "[+33]% Production when constructing [Caravan] units [in all cities]",
             "[+33]% Production when constructing [Cargo Ship] units [in all cities]"
         ],
@@ -2433,7 +2599,9 @@
         "uniqueName": "Nihil Sine Deo",
         "uniques": [
             "[+10]% Strength <for [Military] units> <vs [Wounded] units>",
-            "[+25]% [Culture] [in all cities] <during a Golden Age>"
+            "[+25]% [Culture] [in all cities] <during a Golden Age>",
+            "Instantly gain [100] [Golden Age points] <(modified by game speed)> <upon conquering a city>"
+            //need new uniq for liberating cities too
         ],
         "cities": [
             "Bucharest","Craiova","Iasi","Constanta","Botosani","Braila","Ploiesti","Galati","Bacau","Pitesti",
@@ -2496,9 +2664,9 @@
         "uniqueName": "Siberian Riches",
         "uniques": [
             "[+1 Production] from every [Strategic resource]",
-            "Double quantity of [Horses] produced",
-            "Double quantity of [Iron] produced",
-            "Double quantity of [Uranium] produced"
+            "[+100]% [Horses] resource production",
+            "[+100]% [Iron] resource production",
+            "[+100]% [Uranium] resource production"
         ],
         "cities": [
             "Moscow","St. Petersburg","Novgorod","Rostov","Yaroslavl","Yekaterinburg","Yakutsk","Vladivostok","Smolensk","Orenburg",
@@ -2515,15 +2683,15 @@
         "leaderName": "Robert the Bruce",
         "adjective": ["Scottish"],
         "startBias": ["Avoid [Coast]","Hill"],
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
-        "declaringWar": "Prepare for war!",
-        "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
+        "startIntroPart1": "King Robert I, legendary monarch and enlightened ruler of Scotland, your realm awaits your command. A bastion of freedom, your nation resisted outside rule for nearly a millennium; bravely fighting off invasion after invasion by even the greatest of empires. Through your cunning and ambition, you succeeded in claiming the throne of Scotland from the very foreigners so despised in your land, who ascended through a series of events only God could foresee. With the throne thus claimed and popular support on your side, you defeated the army of Edward I, the English monarch whom you had previously driven from your lands, and one of the greatest threats your nation had ever faced. It was your actions which established a tenuous peace between your warring Kingdoms, fostering a common history which culminated in the union of the two kingdoms under a Scottish monarch in the year 1707. Yet your legacy is one of ensuring the protection of the culture and freedom of the Scottish people, for which you shall forever be remembered.",
+        "startIntroPart2": "Robert the Bruce, general and king, Scotland once more has enemies encroaching on her land. The Scottish people are in need of a great general once more, to send homeward those who would threaten the sovereignty of their Kingdom. Will you fend off all foes that may threaten your nation? Will you ensure that Scotland is the land of the brave and free? Can you build a civilization that will stand the test of time?",
+        "declaringWar": "War lingers in our hearts. Why carry on with a false peace? ",
+        "attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Scotland! ",
+        "defeated": "You may take our lands, but you may never take our freedom. We will return.",
+        "introduction": "Welcome to the domain of free men. Be warned that we will fight dearly for our lives if it comes to that.",
         "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
+        "hateHello": "I'd brain you with an axe, but I'm afraid your thick pate'd shatter it! ",
+        "tradeRequest": "Scotland would rather have true words from you than fair gifts, but we can make a deal.",
         "outerColor": [5,60,77],
         "innerColor": [201,214,217],
         "uniqueName": "Flower of Scotland",
@@ -2534,7 +2702,7 @@
             "[+33]% Great Person generation [in capital]"
         ],
         "cities": [
-            "Edinbourgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries",
+            "Edinburgh","Glasgow","Stirling","Aberdeen","Dundee","Inverness","Perth","Dunfermline","Kilmarnock","Dumfries",
             "Lanark","Dumbarton","Falkirk","Arbroath","Linlithgow","Kirkcaldy","Forfar","Saint Andrews","Tain","Lerwick",
             "Ayr","Wick","Thurso","Stranraer","Portree","Melrose","Berwick","Oban","Ullapool","Aviemore",
             "Gallowglass"
@@ -2555,7 +2723,7 @@
         "defeated": "This will not be the end of my people, I assure you.",
         "introduction": "I am Chief Pocatello. You have arrived in the thick of Shoshone land.",
         "neutralHello": "Our time has arrived!",
-        "hateHello": "?",
+        "hateHello": "What do you want?",
         "tradeRequest": "Would you listen to my proposal?",
         "outerColor": [65,54,42],
         "innerColor": [78,244,234],
@@ -2683,7 +2851,7 @@
         "innerColor": [255,102,102],
         "uniqueName": "Seven Cities of Gold",
         "uniques": [
-            "Gain [100] [Gold] (modified by game speed) <upon discovering a Natural Wonder>",
+            "Gain [100] [Gold] <(modified by game speed)> <upon discovering a Natural Wonder>",
             "[+1 Happiness] for every known Natural Wonder",
             "[+100]% Yield from every [Natural Wonder]"
         ],
@@ -2703,15 +2871,15 @@
         "adjective": ["Sumer"],
         "startBias": ["Avoid [Coast]"],
         "preferredVictoryType": "Scientific",
-        "startIntroPart1": " ",
-        "startIntroPart2": " ",
-        "declaringWar": "Prepare for war!",
-        "attacked": "You shall regret this!",
-        "defeated": "The victory is yours.",
-        "introduction": "Welcome, mighty leader.",
-        "neutralHello": "Greetings.",
-        "hateHello": "What do you want?",
-        "tradeRequest": "Better hurry, I may change my mind.",
+        "startIntroPart1": "The neverending glory be upon you. King Gilgamesh, most legendary and mystical ruler of Sumeria! Oh mighty king, whose hands built the city-walls of Uruk and eyes saw the sage Utnapishtim! You are the leader of the Sumer, the first and the only civilization that was truely original and innovative. Sumer's history stretches back into time when the Gods were walking alongside the mere mortals. Sumer, the cradle of civilization, made a great progress in our history, gave the world most beatiful things - literature, architecture and music - and developed professional army, immortalizing the very first battle in the stele. Sumer's contributions to the civlization of man are uncountable.",
+        "startIntroPart2": "Divine King, who, with strength and wisdom, built the glory of the ancient Sumer and became the very first hero of the history - people seek for your guidance! The wealth of Euphrates, Tigris and the whole Fertile Crescent cannot be wasted in the hands of barbarians. Can you once more bring glory and light to the humankind? Can you build a civilization to stand the test of time?",
+        "declaringWar": "Why do I fight? Because I can... because Inanna demands it. Now you will know the power of Sumer! ",
+        "attacked": "I will enjoy hearing your last breath when you witness the destruction of your people. ",
+        "defeated": "The time has come. Mere mortals challenged the Gods and overthrew them, destroying the old world and proudly awaiting the new one.",
+        "introduction": "I am Gilgamesh of Sumeria and King of Uruk. Do not be afraid… I am good to my friends. ",
+        "neutralHello": "Welcome",
+        "hateHello": "Hah! Gilgamesh is stronger than your false words. ",
+        "tradeRequest": "All the world knows of my generosity to my friends. ",
         "outerColor": [15,70,109],
         "innerColor": [229,118,95],
         "uniqueName": "Cradle of Civilization",
@@ -2747,6 +2915,7 @@
         "uniques": [
             "[+20]% Great Person generation [in all cities]",
             "Gain [100] Influence with a [Great Person] gift to a City-State"
+           // "Gain [200] [Gold] with a [Great Person] gift to a City-State"
         ],
         "cities": [
             "Stockholm","Sigtuna","Helsinki","Birka","Uppsala","Turku","Linköping","Lund","Espoo","Malmö",
@@ -2806,13 +2975,13 @@
         "uniqueName": "Eightfold Path to Nirvana",
         "uniques": [
             "[+2 Faith, +2 Food, +2 Culture, +2 Production, +2 Science, +2 Gold] [in capital] <after discovering [Drama and Poetry]>",
-            "Comment [[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] in capital after discovering [Education], [Acoustics], [Industrialization], [Radio], [Radar] and [Telecommunications]]",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Education]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Acoustics]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Industrialization]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Radio]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Radar]> <hidden from users>",
-            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <after discovering [Telecommunications]> <hidden from users>"
+            "Comment [[+1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold, +1 Faith] [in capital] [for every era after [Classical era]]]",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Medieval era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Renaissance era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Industrial era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Modern era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Atomic era]> <hidden from users>",
+            "[+1 Faith, +1 Food, +1 Culture, +1 Production, +1 Science, +1 Gold] [in capital] <starting from the [Information era]> <hidden from users>"
         ],
         "cities": [
             "Lhasa","Xigaze","Qamdo","Nagqu","Lhoka","Nyingchi","Ngari","Chengguan","Doilungdeqen","Lhunzhub",
@@ -2968,8 +3137,8 @@
         "innerColor": [255,254,231],
         "uniqueName": "Serenissima",
         "uniques": [
-            "Provides [1] [Trade Route] <upon discovering [Compass]>",
-            "Free [Cargo Ship] appears <upon discovering [Compass]>"
+            "Provides [1] [Trade Route] <upon discovering [Compass] technology>",
+            "Free [Cargo Ship] appears <upon discovering [Compass] technology>"
         ],
         "cities": [
             "Venice","Ragusa","Candia","Zara","Durazzo","Tessalonica","Limassol","Patras","Nicosia","Spalato",
@@ -2998,7 +3167,8 @@
         "uniqueName": "Tam Giao",
         "uniques": [
             "[+2 Food, +1 Production] from every [Marsh]",
-            "[+1 Faith] from every [Jungle]"
+            "[+1 Faith] from every [Jungle]",
+            "[Land] units gain the [Vietnamese Walking] promotion"
         ],
         "cities": [
             "Hà Noi","Thành Pho Ho Chí Minh","Hai Phòng","Thành Pho Hue","Can Tho","Dà Nang","Biên Hòa","Phan Rang","Quang Ngãi","Quang Ninh",
@@ -3128,7 +3298,7 @@
         "uniqueName": "Iklwa",
         "uniques": [
             "[-50]% maintenance costs <for [Melee] units>",
-            "[25]% XP gained from combat <for [Military] units>"
+            "[-25]% XP required for promotions"
         ],
         "cities": [
             "Ulundi","Umgungundlovu","Nobamba","Bulawayo","KwaDukuza","Nongoma","oNdini","Nodwengu","Ndonakusuka","Babanango","Khangela",

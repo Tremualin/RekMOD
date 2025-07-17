@@ -1,11 +1,190 @@
 [
+    //Piety Complete
+    {
+        "name": "Purchase Great General",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great General] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great General purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great General purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great General] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great General purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great General purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Artist",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Artist] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Artist purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Artist purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Artist] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Artist purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Artist purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Writer",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Writer] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Writer purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Writer purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Writer] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Writer purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Writer purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Musician",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Musician] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Musician purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Musician purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Musician] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Musician purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Musician purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Merchant",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Merchant] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Merchant purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Merchant purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Merchant] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Merchant purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Merchant purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Engineer",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Engineer] appears",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Engineer purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Engineer purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Engineer] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Engineer purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Engineer purchased] [in all cities] <hidden from users>"
+        ]
+    },
+    {
+        "name": "Purchase Great Admiral",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Free [Great Admiral] appears",
+            "Only available <in [Coastal] cities>",
+            "Only available <after adopting [Piety Complete]>",
+            "Unavailable <if [Great Admiral purchased] is constructed> <hidden from users>",
+            "Only available <in [Capital] cities>",
+            "Gain a free [Great Admiral purchased] [in all cities] <hidden from users>",
+            "Remove [Purchase Great Admiral] [in this city] <hidden from users>",
+            "Piety Complete Building"
+        ]
+    },
+    {
+        "name": "Great Admiral purchased",
+        "uniques": [
+            "Unbuildable", "Unsellable",
+            "Will not be displayed in Civilopedia",
+            "Destroyed when the city is captured",
+            "Gain a free [Great Admiral purchased] [in all cities] <hidden from users>"
+        ]
+    },
+
     // Religious buildings
     {
         "name": "Cathedral",
         "culture": 5,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Comment [Has 1 Great Work of Art Slot]",
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Cathedrals] religion>"
+        ]
+    },
+    {
+        "name": "Cathedral Great Art Slot",
+        "culture": 2,
+        "cost": 0,
+        "requiredResource": "Great Work of Art",
+        "uniques": [
+            "Great Work", "GW Art",
+            "Only available <in cities with a [Cathedral]>",
+            "Provides [1] [Great Work of Art]",
+            "Instantly consumes [1] [Great Work of Art]"
         ]
     },
     {
@@ -15,17 +194,22 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Can be purchased for [150] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mosques] religion>"
         ]
     },
     {
         "name": "Pagoda",
+        "faith": 2,
         "culture": 1,
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
             "[10]% Food is carried over after population increases [in this city]",
-            "Hidden when religion is disabled"
+            "Can be purchased for [200] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Pagodas] religion>"
         ]
     },
     {
@@ -36,7 +220,9 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Gurdwaras] religion>"
         ]
     },
     {
@@ -47,17 +233,22 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% Production when constructing [All] buildings [in this city]",
-            "Hidden when religion is disabled"
+            "Can be purchased for [200] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Synagogues] religion>"
         ]
     },
     {
         "name": "Vihara",
         "faith": 1,
         "happiness": 1,
+        "specialistSlots": {"Merchant": 1},
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% [Gold] [in this city]",
-            "Hidden when religion is disabled"
+            "Can be purchased for [150] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Viharas] religion>"
         ]
     },
     {
@@ -65,10 +256,120 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
-            "Hidden when religion is disabled"
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mandirs] religion>"
         ]
     },
-
+    {
+        "name": "Georgian Cathedral",
+        "replaces": "Cathedral",
+        "uniqueTo": "Georgia",
+        "cost": 135,
+        "culture": 5,
+        "production": 2,
+        "uniques": [
+            "Unsellable",
+            "Comment [Has 1 Great Work of Art Slot]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Cathedrals] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Mosque",
+        "replaces": "Mosque",
+        "uniqueTo": "Georgia",
+        "cost": 75,
+        "culture": 1,
+        "faith": 3,
+        "production": 2,
+        "happiness": 1,
+        "uniques": [
+            "Unsellable",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mosques] religion>",
+            "Will not be displayed in Civilopedia",
+        ]
+    },
+    {
+        "name": "Georgian Pagoda",
+        "replaces": "Pagoda",
+        "uniqueTo": "Georgia",
+        "cost": 100,
+        "faith": 2,
+        "production": 2,
+        "culture": 1,
+        "happiness": 1,
+        "uniques": [
+            "Unsellable",
+            "[10]% Food is carried over after population increases [in this city]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Pagodas] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Gurdwara",
+        "replaces": "Gurdwara",
+        "uniqueTo": "Georgia",
+        "cost": 135,
+        "culture": 1,
+        "faith": 4,
+        "production": 2,
+        "science": 4,
+        "happiness": 1,
+        "uniques": [
+            "Unsellable",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Gurdwaras] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Synagogue",
+        "replaces": "Synagogue",
+        "uniqueTo": "Georgia",
+        "cost": 100,
+        "culture": 1,
+        "faith": 2,
+        "production": 3,
+        "uniques": [
+            "Unsellable",
+            "[+15]% Production when constructing [All] buildings [in this city]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Synagogues] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Vihara",
+        "replaces": "Vihara",
+        "uniqueTo": "Georgia",
+        "cost": 75,
+        "faith": 1,
+        "production": 2,
+        "happiness": 1,
+        "specialistSlots": {"Merchant": 1},
+        "uniques": [
+            "Unsellable",
+            "[+15]% [Gold] [in this city]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Viharas] religion>",
+            "Will not be displayed in Civilopedia"
+        ]
+    },
+    {
+        "name": "Georgian Mandir",
+        "production": 2,
+        "uniques": [
+            "Unbuildable","Unsellable",
+            "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
+            "Can be purchased for [270] [Faith] [in all cities]",
+            "Only available <when religion is enabled>",
+            "Only available <in cities with a [Mandirs] religion>"
+        ]
+    },
     // Uniques
     {
         "name": "Art Hall",
@@ -207,6 +508,21 @@
             "[+2] population [in this city]"
         ]
     },
+    {
+        "name": "Bahai Kubo",
+        "uniqueTo": "Philippines",
+        "cost": 0,
+        "uniques": [
+            "Unsellable",
+            "Never destroyed when the city is captured",
+            "[+1] population [in this city]",
+            "Limited to [2] per Civilization",
+            //TODO: stockpile resource for prevent 'could be captured, then rebuilt in a new city'
+            "Will not be displayed in Civilopedia",
+            "Only available <in cities without a [Palace]>",
+            "Automatically built in all cities where it is buildable"
+        ]
+    },
 
     // Ancient Era
     // Always available
@@ -282,7 +598,7 @@
         "culture": 2,
         "cost": 20,
         "hurryCostModifier": 40,
-        "maintenance": 1,
+        "maintenance": 0,
         "requiredTech": "Pottery",
         "uniques": ["Destroyed when the city is captured"]
     },
@@ -337,12 +653,32 @@
         "requiredTech": "Sailing"
     },
     {
+        "name": "Cacicazgo",
+        "uniqueTo": "Colombia",
+        "replaces": "Granary",
+        "cost": 66,
+        "food": 2,
+        "gold": 1,
+        "production": 1,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+1 Food] from [Deer] tiles [in this city]",
+            "[+1 Food] from [Bison] tiles [in this city]",
+            "[+1 Food] from [Bananas] tiles [in this city]",
+            "[+1 Food] from [Wheat] tiles [in this city]",
+            "[+1 Food] from [Maize] tiles [in this city]",
+            "[+3 Production] from [Land Trade Route (Production)] tiles [in this city] <in cities without a [Workshop]>",
+            "[+6 Production] from [Sea Trade Route (Production)] tiles [in this city] <in cities without a [Workshop]>"
+        ],
+        "requiredTech": "Pottery"
+    },
+    {
         "name": "Shrine",
         "faith": 1,
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": ["Hidden when religion is disabled"]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Sauna",
@@ -355,7 +691,7 @@
         "uniques": [
             "All newly-trained [relevant] units [in this city] receive the [Sauna] promotion",
             "[+2 Culture] from [Lakes] tiles [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -367,7 +703,7 @@
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": ["Hidden when religion is disabled"]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Temple of Artemis",
@@ -474,7 +810,7 @@
         "uniques": [
             "[+1 Science] per [2] population [in this city]",
             "Comment [Has 1 Great Work of Writing Slot]",
-            "New [Military] units start with [15] Experience [in this city] <in cities with a [Royal Library Great Writing Slot]>"
+            "New [Military] units start with [15] XP [in this city] <in cities with a [Royal Library Great Writing Slot]>"
         ],
         "requiredTech": "Writing"
     },
@@ -633,13 +969,31 @@
         "name": "Rova",
         "replaces": "Walls",
         "uniqueTo": "Madagascar",
-        "faith": 3,
-        "happiness": 1,
+        "faith": 2,
+        "food": 2,
         "cityStrength": 5,
         "cityHealth": 50,
         "hurryCostModifier": 25,
         "requiredTech": "Masonry",
-        "uniques": ["Destroyed when the city is captured"]
+        "uniques": [
+            "Can be purchased for [225] [Faith] [in all cities]",
+            "Destroyed when the city is captured"
+        ]
+    },
+	{
+        "name": "Tsikhe",
+        "replaces": "Walls",
+        "uniqueTo": "Georgia",
+        "cityStrength": 5,
+        "cityHealth": 50,
+        "faith": 3,
+        "hurryCostModifier": 25,
+        "uniques": [
+            "[+1 Culture] from [Strategic Resource] tiles [in this city]",
+            "All newly-trained [relevant] units [in this city] receive the [Golden Age from Victories] promotion",
+            "Destroyed when the city is captured"
+        ],
+        "requiredTech": "Masonry"
     },
     {
         "name": "The Pyramids",
@@ -647,7 +1001,7 @@
         "greatPersonPoints": {"Great Engineer": 1},
         "isWonder": true,
         "uniques": [
-            "[-25]% construction time for [All] improvements",
+            "Can build [all] improvements at a [+25]% rate",
             "[2] free [Worker] units appear",
             "Only available <after adopting [Liberty]>"
         ],
@@ -660,7 +1014,7 @@
         "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": [
-            "Provides a sum of gold each time you spend a Great Person",
+            "Gain [100] [Gold] <upon expending a [Great Person] unit>",
             "[+2 Gold] from [Marble] tiles [in this city]",
             "[+2 Gold] from [Stone] tiles [in this city]",
             "[+2 Gold] from [Obsidian] tiles [in this city]"
@@ -673,7 +1027,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -686,7 +1040,7 @@
         "science": 2,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"
         ],
@@ -701,7 +1055,7 @@
         "uniques": [
             "[-25]% Culture cost of natural border growth [in this city]",
             "[-25]% Gold cost of acquiring tiles [in this city]",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -713,7 +1067,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Sword] units [in this city] receive the [Buffalo Horns I] promotion",
             "All newly-trained [Mounted] units [in this city] receive the [Buffalo Horns I] promotion"
@@ -851,7 +1205,7 @@
             "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
-            "New [Mounted] units start with [15] Experience [in this city]"
+            "New [Mounted] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -888,7 +1242,7 @@
         "maintenance": 4,
         "hurryCostModifier": 50,
         "uniques": [
-            "Remove extra unhappiness from annexed cities",
+            "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>"
         ],
         "requiredTech": "Mathematics"
@@ -902,7 +1256,7 @@
         "happiness": 2,
         "hurryCostModifier": 50,
         "uniques": [
-            "Remove extra unhappiness from annexed cities",
+            "Removes extra unhappiness from annexed cities",
             "Can only be built <in [Annexed] cities>"
         ],
         "requiredTech": "Mathematics"
@@ -924,6 +1278,7 @@
         "name": "Colosseum",
         "maintenance": 1,
         "happiness": 2,
+        "cost": 100,
         "hurryCostModifier": 25,
         "requiredTech": "Construction"
     },
@@ -931,7 +1286,7 @@
         "name": "Mead Hall",
         "replaces": "Colosseum",
         "uniqueTo": "Franks",
-        "maintenance": 1,
+        "cost": 75,
         "happiness": 3,
         "culture": 1,
         "hurryCostModifier": 25,
@@ -998,19 +1353,6 @@
         "requiredTech": "Philosophy"
     },
     {
-        "name": "Yeshiva",
-        "replaces": "Temple",
-        "uniqueTo": "Israel",
-        "cost": 120,
-        "food": 1,
-        "production": 1,
-        "faith": 2,
-        "requiredBuilding": "Shrine",
-        "maintenance": 2,
-        "hurryCostModifier": 25,
-        "requiredTech": "Philosophy"
-    },
-    {
         "name": "Stave Church",
         "replaces": "Temple",
         "uniqueTo": "Norway",
@@ -1057,6 +1399,27 @@
             "Cost increases by [30] per owned city"
         ],
         "requiredTech": "Philosophy"
+    },
+    {
+        "name": "King Soloman's Temple",
+        "replaces": "National College",
+        "uniqueTo": "Israel",
+        "cost": 125,
+        "science": 3,
+        "faith": 3,
+        "culture": 1,
+        "percentStatBonus": {"science": 50},
+        "isNationalWonder": true,
+        "requiredTech": "Philosophy",
+        "uniques": [
+            "Shown while unbuilable",
+            "Unbuildable",
+            "Can be purchased for [450] [Gold] [in all cities]",
+            "Can be purchased for [390] [Faith] [in all cities]",
+            "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
+            "Gain [75] [Faith] <upon expending a [Great Person] unit>",
+            "Gain [75] [Science] <upon expending a [Great Person] unit>"
+        ]
     },
     {
         "name": "The Oracle",
@@ -1217,13 +1580,13 @@
         "replaces": "National Epic",
         "uniqueTo": "Aksum",
         "cost": 125,
-        "culture": 3,
+        "culture": 4,
         "faith": 4,
         "isNationalWonder": true,
         "uniques": [
-            "Only available <if [Shrine] is constructed in all [non-[Puppeted]] cities>",
+            "Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
             "[+25]% Great Person generation [in this city]",
-            "[+2 Food, +1 Gold, +1 Production, +1 Faith] from every [Shrine]",
+            "[+1 Food, +1 Gold, +1 Production, +1 Faith] from every [Monument]",
             "Cost increases by [30] per owned city",
             "Comment [Has 1 Great Work of Writing Slot]"
         ],
@@ -1299,7 +1662,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Gain [20] [Gold] (modified by game speed) <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
+            "Gain [20] [Gold] <upon expending a [Great Person] unit>",
             "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
@@ -1432,7 +1795,7 @@
         "uniques": [
             "Gain a free [Temple] [in this city]",
             "Free [Great Prophet] appears",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
@@ -1446,7 +1809,7 @@
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Can only be built <in [Holy] cities>"
         ],
         "requiredTech": "Theology",
@@ -1462,7 +1825,7 @@
         "uniques": [
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "isNationalWonder": true
@@ -1478,7 +1841,7 @@
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Can only be built <in [Holy] cities>",
             "Gain a free [Cathedral] [in this city]",
             "Free [Great Prophet] appears"
@@ -1495,7 +1858,7 @@
             "Gain a free [Garden] [in this city]",
             "[3] free [Missionary] units appear",
             "Can only be built <in [Holy] cities>",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky' - Gautama Buddha"
@@ -1728,7 +2091,7 @@
             "Must be next to [Coast]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Water resource] tiles [in this city]",
-            "New [Water] units start with [15] Experience [in this city]"
+            "New [Water] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Compass"
     },
@@ -1932,7 +2295,7 @@
         "maintenance": 1,
         "requiredBuilding": "Barracks",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Steel"
@@ -1946,7 +2309,7 @@
         "requiredBuilding": "Barracks",
         "uniques": [
             "Free [Reislaufer] appears",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "All newly-trained [{Land} {Military}] units [in this city] receive the [Mountaineer] promotion",
             "Destroyed when the city is captured"
         ],
@@ -1959,11 +2322,10 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "[+1 Food, +1 Culture, +1 Production] from [Marsh] tiles [in this city]",
-            "[+1 Culture] from [Jungle] tiles [in this city]",
-            "All newly-trained [Melee] units [in this city] receive the [Woodsman] promotion"
+            "[+1 Culture] from [Jungle] tiles [in this city]"
         ],
         "requiredTech": "Metal Casting"
     },
@@ -2149,7 +2511,7 @@
         "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
-            //"Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
         ],
         "requiredTech": "Banking"
@@ -2164,7 +2526,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 5,"production": 5},
         "uniques": [
-            //"Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
         ]
     },
@@ -2204,6 +2566,19 @@
         "maintenance": 2,
         "requiredBuilding": "Colosseum",
         "requiredTech": "Printing Press"
+    },
+    {
+        "name": "National Church",
+        "replaces": "Zoo",
+        "uniqueTo": "Philippines",
+        "cost": 150,
+        "happiness": 2,
+        "faith": 4,
+        "culture": 1,
+        "hurryCostModifier": 10,
+        "maintenance": 2,
+        "requiredTech": "Compass",
+        "uniques": ["New [Military] units start with [15] XP [in this city]"]
     },
     {
         "name": "Stade",
@@ -2535,6 +2910,7 @@
     {
         "name": "Museum",
         "culture": 2,
+        "percentStatBonus": {"culture": 10},
         "requiredBuilding": "Amphitheater",
         "maintenance": 3,
         "hurryCostModifier": 0,
@@ -2575,6 +2951,7 @@
         "replaces": "Museum",
         "uniqueTo": "Italy",
         "culture": 2,
+        "percentStatBonus": {"culture": 10},
         "specialistSlots": {"Artist": 2},
         "greatPersonPoints": {"Great Artist": 2},
         "maintenance": 3,
@@ -2591,7 +2968,7 @@
         "replaces": "Museum",
         "uniqueTo": "Yugoslavia",
         "culture": 2,
-        "percentStatBonus": {"science": 20},
+        "percentStatBonus": {"science": 20, "culture": 10},
         "requiredBuilding": "Amphitheater",
         "maintenance": 3,
         "hurryCostModifier": 0,
@@ -2732,6 +3109,25 @@
         "requiredTech": "Industrialization"
     },
     {
+        "name": "Cooperation",
+        "uniqueTo": "Chile",
+        "replaces": "Factory",
+        "happiness": 2,
+        "cost": 360,
+        "production": 4,
+        "percentStatBonus": {"production": 10},
+        "specialistSlots": {"Engineer": 3},
+        "requiredBuilding": "Workshop",
+        "maintenance": 0,
+        "hurryCostModifier": 0,
+        "uniques": [
+            "Provides [1] [Factories]",
+            "Adopt [Ideology]",
+            "[+2 Gold] from [Rubber] tiles [in this city]"
+        ],
+        "requiredTech": "Industrialization"
+    },
+    {
         "name": "Center of Progress",
         "cost": 0,
         "uniques": [
@@ -2776,7 +3172,7 @@
         "maintenance": 1,
         "requiredBuilding": "Armory",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Military Science"
@@ -2788,7 +3184,7 @@
         "isWonder": true,
         "uniques": [
             "Free [Great General] appears",
-            "New [Military] units start with [15] Experience [in this city]"
+            "New [Military] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Military Science",
         "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
@@ -2864,7 +3260,7 @@
         "maintenance": 1,
         "hurryCostModifier": 25,
         "uniques": [
-            //"Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-25]% enemy spy effectiveness [in this city]"
         ],
         "requiredBuilding": "Constabulary",
@@ -2904,7 +3300,7 @@
     {
         "name": "Broadcast Tower",
         "culture": 2,
-        "percentStatBonus": {"culture": 33},
+        "percentStatBonus": {"culture": 15},
         "requiredBuilding": "Opera House",
         "maintenance": 3,
         "requiredTech": "Radio",
@@ -2994,9 +3390,9 @@
         "culture": 1,
         "isNationalWonder": true,
         "uniques": [
-            //"Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "Gain an extra spy",
-            "Promotes all spies",
+            "Promotes all spies [1] time(s)",
             "[-15]% enemy spy effectiveness [in this city]",
             "Only available <if [Constabulary] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city"
@@ -3210,7 +3606,7 @@
         "uniques": [
             "Enables construction of Spaceship parts",
             "Triggers a global alert upon completion",
-            "Hidden when [Scientific] Victory is disabled",
+            "Only available <when [Scientific] Victory is enabled>",
             "Cannot be hurried"
         ],
         "requiredTech": "Rocketry"
@@ -3219,7 +3615,7 @@
         "name": "Great Firewall",
         "isWonder": true,
         "uniques": [
-            //"Hidden when espionage is disabled",
+            "Only available <when espionage is enabled>",
             "[-99]% enemy spy effectiveness [in this city]",
             "[-25]% enemy spy effectiveness [in all cities]"
         ],
@@ -3272,7 +3668,7 @@
         "requiredTech": "Globalization",
         "uniques": [
             "Triggers voting for the Diplomatic Victory",
-            "Hidden when [Diplomatic] Victory is disabled",
+            "Only available <when [Diplomatic] Victory is enabled>",
             "Triggers a global alert upon completion"
         ],
         "quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
@@ -3287,7 +3683,7 @@
             "Only available <when above [30] [Policies]>",
             "Triggers a global alert upon build start",
             "Triggers a Cultural Victory upon completion",
-            "Hidden when [Cultural] Victory is disabled",
+            "Only available <when [Cultural] Victory is enabled>",
             "Cannot be hurried"
         ]
     }

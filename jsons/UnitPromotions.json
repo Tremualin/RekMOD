@@ -2,7 +2,7 @@
     {
         "name": "Heal Instantly",
         "uniques": [
-            "Heal this unit by [50] HP",
+            "[This Unit] heals [50] HP",
             "Doing so will consume this opportunity to choose a Promotion"
         ],
         "unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Mounted Ranged","Paratrooping"],
@@ -143,16 +143,16 @@
     },
     {
         "name": "Amphibious",
-        "prerequisites": ["Shock I", "Drill I", "Ambush Formation I", "Survivalism I"],
+        "prerequisites": ["Shock I", "Drill I","Ambush Formation I"],
         "uniques": [
             "Eliminates combat penalty for attacking over a river",
             "Eliminates combat penalty for attacking across a coast"
         ],
-        "unitTypes": ["Sword","Gunpowder","Paratrooping", "Scout"]
+        "unitTypes": ["Sword","Gunpowder","Paratrooping"]
     },
     {
         "name": "Medic",
-        "prerequisites": ["Shock I", "Drill I","Ambush Formation I", "Survivalism I"],
+        "prerequisites": ["Shock I", "Drill I","Ambush Formation I", "Scouting II", "Survivalism II"],
         "uniques": [
             "All adjacent units heal [+5] HP when healing"
         ],
@@ -169,65 +169,27 @@
     },
     // Scout
     {
-        "name": "Recon",
-        "uniques": [
-            "Ignores terrain cost",
-            "Can move immediately once bought",
-            "May enter foreign tiles without open borders",
-            "Comment [City-State territory always counts as friendly territory]",
-            "Invisible to non-adjacent units <in [Vegetation] tiles>",
-            "Can see invisible [Land] units",
-            "This Unit gains [15] XP <upon discovering a Natural Wonder>",
-            "This Unit gains [10] XP <upon discovering a [City] tile>",
-            "This Unit gains [5] XP <upon discovering a [Ancient ruins] tile>",
-            "This Unit gains [3] XP <upon discovering a [Strategic resource] tile>",
-            "This Unit gains [2] XP <upon discovering a [Luxury resource] tile>",
-            "This Unit gains [1] XP <upon discovering a [Bonus resource] tile>"
-        ],
-        "unitTypes": ["Scout"],
-        "row": 1,
-        "column": 0
-    },    
-    {
-        "name": "Hit and Run I",
-        "uniques": [
-            "[+1] Movement",
-            "Can move after attacking",
-        ],
+        "name": "Scouting I",
+        "uniques": ["[+1] Sight"],
         "unitTypes": ["Scout"]
     },
     {
-        "name": "Hit and Run II",
-        "prerequisites": ["Hit and Run I"],
-        "uniques": [
-            "[+1] Movement",
-            "Ignores Zone of Control"
-        ],
+        "name": "Scouting II",
+        "prerequisites": ["Scouting I"],
+        "uniques": ["[+1] Sight"],
         "unitTypes": ["Scout"]
     },
     {
-        "name": "Hit and Run III",
-        "prerequisites": ["Hit and Run II"],
-        "uniques": [
-            "[+1] additional attacks per turn",
-            "No movement cost to pillage"
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Deceptive",
-        "prerequisites": ["Hit and Run III"],
-        "uniques": [
-            "[-15]% Strength for enemy [{Military} {Land}] units in adjacent [Land] tiles"
-        ],
+        "name": "Scouting III",
+        "prerequisites": ["Scouting II"],
+        "uniques": ["[+1] Movement"],
         "unitTypes": ["Scout"]
     },
     {
         "name": "Survivalism I",
         "uniques": [
             "[+5] HP when healing <in [Foreign Land] tiles>",
-            "[+25]% Strength <when defending>",
-            "[-33]% maintenance costs"
+            "[+25]% Strength <when defending>"
         ],
         "unitTypes": ["Scout"]
     },
@@ -236,8 +198,7 @@
         "prerequisites": ["Survivalism I"],
         "uniques": [
             "[+5] HP when healing <in [Foreign Land] tiles>",
-            "[+25]% Strength <when defending>",
-            "[-33]% maintenance costs"
+            "[+25]% Strength <when defending>"
         ],
         "unitTypes": ["Scout"]
     },
@@ -246,70 +207,7 @@
         "prerequisites": ["Survivalism II"],
         "uniques": [
             "Unit will heal every turn, even if it performs an action",
-            "May withdraw before melee ([75]%)",
-            "[-34]% maintenance costs"
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Ranger",
-        "prerequisites": ["Survivalism II"],
-        "uniques": [
-            "Double movement in [Vegetation]"
-            "[+33]% Strength <when fighting in [Vegetation] tiles>",
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Alpine",
-        "prerequisites": ["Survivalism II"],
-        "uniques": [
-            "Double movement in [Hill]"
-            "[+33]% Strength <when fighting in [Hill] tiles>",
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Spotter I",
-        "uniques": [
-            "[+1] Sight",
-            "[+5]% Strength bonus for [{Military} {Land}] units within [2] tiles"
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Spotter II",
-        "prerequisites": ["Spotter I"],
-        "uniques": [
-            "[+1] Sight",
-            "[+10]% Strength bonus for [{Military} {Land}] units within [2] tiles"
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Spotter III",
-        "prerequisites": ["Spotter II"],
-        "uniques": [
-            "Can see over obstacles <after discovering [Radar]>",
-            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles"
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Booby Trapper",
-        "prerequisites": ["Survivalism III", "Spotter III"],
-        "uniques": [
-            "[+25]% Strength <vs [Melee] units> <when defending>",
-            "[+25]% Strength <vs [Melee] units> <when defending> <after discovering [Machinery]>",
-            "[+50]% Strength <vs [Melee] units> <when defending> <after discovering [Dynamite]>",
-        ],
-        "unitTypes": ["Scout"]
-    },
-    {
-        "name": "Stealthy",
-        "prerequisites": ["Survivalism III", "Hit and Run III", "Spotter III"],
-        "uniques": [
-            "Invisible to others",
+            "Withdraws before melee combat <with [50]% chance>"
         ],
         "unitTypes": ["Scout"]
     },
@@ -354,6 +252,26 @@
         "uniques": [
             "[+20]% Strength <vs cities>",
             "Earn [33]% of the damage done to [City] units as [Gold]"
+        ],
+        "unitTypes": ["Melee Water"]
+    },
+    {
+        "name": "Naval Interception I",
+        "uniques": ["[+25]% Damage when intercepting"],
+        "unitTypes": ["Melee Water"]
+    },
+    {
+        "name": "Naval Interception II",
+        "prerequisites": ["Naval Interception I"],
+        "uniques": ["[+25]% Damage when intercepting"],
+        "unitTypes": ["Melee Water"]
+    },
+    {
+        "name": "Naval Interception III",
+        "prerequisites": ["Naval Interception II"],
+        "uniques": [
+            "[+100]% Strength <vs [Bomber] units>",
+            "[+100]% Strength <vs [Fighter] units>"
         ],
         "unitTypes": ["Melee Water"]
     },
@@ -436,7 +354,7 @@
     // Mixed Water
     {
         "name" : "Supply",
-        "prerequisites": ["Bombardment II", "Targeting II", "Boarding Party II", "Coastal Raider II","Wolfpack II","Flight Deck II","Armor Plating II"],
+        "prerequisites": ["Bombardment II", "Targeting II", "Boarding Party II", "Naval Interception II", "Coastal Raider II","Wolfpack II","Flight Deck II","Armor Plating II"],
         "uniques": [
             "May heal outside of friendly territory",
             "[+15] HP when healing <in [Foreign Land] tiles>"
@@ -613,20 +531,20 @@
     {
         "name": "Mobility",
         "prerequisites": ["Shock III","Drill III","Ambush Formation III","Targeting I",
-            "Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I","Flight Deck I","Armor Plating I"],
+            "Bombardment I","Boarding Party I","Naval Interception I", "Coastal Raider I", "Wolfpack I","Flight Deck I","Armor Plating I"],
         "uniques": ["[+1] Movement"],
         "unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier","Helicopter"]
     },
     {
         "name": "Sentry",
-        "prerequisites": ["Accuracy I","Barrage I","Anti-Naval I","Shock II","Drill II","Ambush Formation II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+        "prerequisites": ["Accuracy I","Barrage I","Anti-Naval I","Shock II","Drill II","Ambush Formation II","Bombardment I","Targeting I","Boarding Party I","Naval Interception I","Coastal Raider I"],
         "uniques": ["[+1] Sight"],
         "unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"]
     },
     {
         "name": "Logistics",
         "prerequisites": ["Accuracy III","Barrage III","Anti-Naval III","Targeting III", "Wolfpack III",
-            "Bombardment III", "Coastal Raider III","Boarding Party III","Siege III","Ambush Formation III","Heli Anti-Naval III","Air Targeting III"],
+            "Bombardment III","Naval Interception III", "Coastal Raider III","Boarding Party III","Siege III","Ambush Formation III","Heli Anti-Naval III","Air Targeting III"],
         "uniques": [
             "[1] additional attacks per turn",
             "Can move after attacking"
@@ -724,7 +642,7 @@
     {
         "name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
         "uniques": [
-            "May withdraw before melee ([80]%)"
+            "Withdraws before melee combat <with [80]% chance>"
         ]
     },
     {
@@ -737,7 +655,6 @@
         "name": "Sea Nomads", // Brunei
         "uniques": [
             "[-33]% maintenance costs",
-            "May heal outside of friendly territory",
             "Can build [Water] improvements on tiles"
         ]
     },
@@ -778,7 +695,7 @@
     {
         "name": "[Conquistador] ability",
         "uniques": [
-            "Defense bonus when embarked"
+            "[+100]% Strength <when defending> <when [Embarked]>"
         ]
     },
     {
@@ -789,7 +706,7 @@
         ]
     },
     {
-        "name": "[Sipahi] ability",
+        "name": "No movement cost to pillage",
         "uniques": [
             "No movement cost to pillage"
         ]
@@ -801,7 +718,7 @@
         ]
     },
     {
-        "name": "[Hussar] ability",
+        "name": "Enhanced Flank Attack",
         "uniques": [
             "[+50]% to Flank Attack bonuses"
         ]
@@ -851,13 +768,13 @@
     {
         "name": "War Canoes", // Songhai
         "uniques": [
-            "Defense bonus when embarked"
+            "[+100]% Strength <when defending> <when [Embarked]>"
         ]
     },
     {
         "name": "Homeland Guardian",
         "uniques": [
-            "[+20]% Strength <when fighting in [Friendly Land] tiles>"
+            "[+25]% Strength <when fighting in [Friendly Land] tiles>"
         ]
     },
     {
@@ -867,13 +784,14 @@
         ]
     },
     {
-        "name": "Feared Elephant",
+        "name": "Heavy Charge",
         "uniques": [
-            "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+            "[+50]% Strength <when attacking>"
         ]
     },
+    //need new uniq for "enemy Units will retreat if they receive more damage than this Unit; this Unit deals +50% damage to defenders incapable of retreat"
     {
-        "name": "Heavy Charge",
+        "name": "Bonus For Attacking",
         "uniques": [
             "[+50]% Strength <when attacking>"
         ]
@@ -932,7 +850,94 @@
             "Can Spread Religion <[1] additional time(s)>"
         ]
     },
-
+    {
+        "name": "Golden Age from Victories",
+        "uniques": [
+            "Earn [100]% of killed [Military] unit's [Strength] as [Golden Age points]"
+        ]
+    },
+    {
+        "name": "Extra Sight",
+        "uniques": ["[+1] Sight"]
+    },
+    {
+        "name": "Extra Movement",
+        "uniques": ["[+1] Movement"]
+    },
+    {
+        "name": "Forest Native",
+        "uniques": [
+            "[+33]% Strength <when attacking>",
+            "[+50]% Strength <when fighting in [Forest] tiles>"]
+    },
+    {
+        "name": "Heals 25 Damage If Kill a Unit",
+        "uniques": ["[This Unit] heals [25] HP <upon defeating a [All] unit>"]
+    },
+    {
+        "name": "Overseer", // only for Laputtu and subsequent upgrades
+        "uniques": ["Transfer Movement to [Civilian]"]
+    },
+    {
+        "name": "Heals Completely Upon Killing", //only for Voortrekker and subsequent upgrades
+        "uniques": ["Heals [100] damage if it kills a unit"]
+    },
+    {
+        "name": "Strong Defence", //only for Voortrekker and subsequent upgrades
+        "uniques": ["[+25]% Strength <when defending>"]
+    },
+    {
+        "name": "Can Move After Attacking", //only for Pracinha and subsequent upgrades
+        "uniques": ["Can move after attacking"]
+    },
+    {
+        "name": "Foreign Land Bonus", //only for Pracinha and Crusader and subsequent upgrades
+        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+    },
+    {
+        "name": "Can Enter Rival Territory", //only for Crusader and subsequent upgrades
+        "uniques": ["May enter foreign tiles without open borders"]
+    },
+    {
+        "name": "Range Defence", //only for Ngao Mbeba and subsequent upgrades
+        "uniques": ["[+100]% Strength <when defending> <vs [Ranged] units>"]
+    },
+    {
+        "name": "May Not Melee Attack", //only for Ngao Mbeba and subsequent upgrades
+        "uniques": ["Cannot attack"]
+    },
+    {
+        "name": "Vietnamese Walking",
+        "uniques": [
+            "Double movement in [Marsh]",
+            "Double movement in [Jungle]",
+            "[+30]% Strength <when fighting in [Marsh] tiles>",
+            "[+15]% Strength <when fighting in [Jungle] tiles>"
+        ]
+    },
+    {
+    "name": "Range Defence", //only for Cardoen and subsequent upgrades
+    "uniques": ["[+100]% Strength <vs [Ranged] units> <when defending>"]
+    },
+  //TODO need add uniq for [2]-tiles radius
+    {
+    "name": "By Reason", //only for Chile
+    "uniques": ["[-25]% Strength for enemy [Water] units in adjacent [All] tiles <in [Land] tiles>"]
+    },
+    {
+    "name": "By Force", //only for Chile
+    "uniques": ["[-25]% Strength for enemy [Land] units in adjacent [All] tiles"]
+    },
+    {
+        "name": "Embarkation with Defence",
+        "uniques": [
+            "[+100]% Strength <when defending> <when [Embarked]>"
+        ]
+    },
+    {
+        "name": "Fast Swimmer", //only for Gerilya and subsequent upgrades
+        "uniques": ["[+3] Movement <when [Embarked]>"]
+    },
     // Section Kris Swordsmen
     {
         "name": "Mystic Blade",
@@ -1006,8 +1011,8 @@
     {
         "name": "Recruitment",
         "uniques": [
-            "Heal this unit by [50] HP <upon defeating a [Major] unit>",
-            "Heal this unit by [50] HP <upon defeating a [City-State] unit>",
+            "[This Unit] heals [50] HP <upon defeating a [Major] unit>",
+            "[This Unit] heals [50] HP <upon defeating a [City-State] unit>",
             "Only available <for units without [Ambition]>",
             "Only available <for units without [Invulnerability]>",
             "Only available <for units without [Restlessness]>",
@@ -1327,7 +1332,7 @@
         "unitTypes": ["Sword","Mounted","Scout","Siege","Archery", "Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
     },
     {
-        "name": "Zielstrebigkei",
+        "name": "Zielstrebigkeit",
         "uniques": [
             "[1] additional attacks per turn"
         ],
@@ -1354,9 +1359,9 @@
         "name": "Zuverlässigkeit",
         "uniques": [
             "Unit will heal every turn, even if it performs an action",
-            "[+15]% Strength when stacked with [Great General]"
+            "[+15]% Strength <when stacked with a [Great General] unit>"
         ],
-        "prerequisites": ["Zielstrebigkei"],
+        "prerequisites": ["Zielstrebigkeit"],
         "unitTypes": ["Sword","Mounted","Scout","Siege","Archery", "Mounted Ranged","Armored","Gunpowder","Paratrooping","Ranged Gunpowder"]
     },
     {
