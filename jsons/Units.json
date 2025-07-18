@@ -266,7 +266,7 @@
             "Can instantly construct a [Land Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Land Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Consumes [1] [Trade Route]",
-            "Only available <for [non-[City-States]]>",
+            "Only available <for [non-[City-States]] Civilizations>",
             "Uncapturable",
             "No Sight"
         ],
@@ -283,7 +283,7 @@
             "Can instantly construct a [Sea Trade Route (Production)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Can instantly construct a [Sea Trade Route (Gold)] improvement <by consuming this unit> <when above [-1] [Trade Route]>",
             "Consumes [1] [Trade Route]",
-            "Only available <for [non-[City-States]]>",
+            "Only available <for [non-[City-States]] Civilizations>",
             "Uncapturable",
             "No Sight"
         ],
@@ -1109,7 +1109,7 @@
             "No defensive terrain bonus",
             "[-33]% Strength <vs cities> <when attacking>",
             "Can build [Pasture] improvements on tiles",
-            "May withdraw before melee ([50]%)"
+            "Withdraws before melee combat <with [50]% chance>"
         ],
         "attackSound": "horse"
     },
@@ -1533,7 +1533,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "[+1] Sight",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1553,7 +1553,7 @@
         "promotions": ["Boarding Party I"],
         "uniques": [
             "[+1] Sight",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -1590,7 +1590,7 @@
         "obsoleteTech": "Combustion",
         "uniques": [
             "[+1] Sight",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "Can move after attacking"
         ],
         "hurryCostModifier": 30,
@@ -2546,7 +2546,7 @@
             "Can see invisible [Submarine] units",
             "[100]% chance to intercept air attacks",
             "Can move after attacking",
-            "May withdraw before melee ([80]%)",
+            "Withdraws before melee combat <with [80]% chance>",
             "[+100]% Strength <vs [Submarine] units>"
         ],
         "attackSound": "shipguns"
@@ -2563,7 +2563,7 @@
         "promotions": ["Amphibious"],
         "uniques": [
             "[+1] Sight <when [Embarked]>",
-            "Defense bonus when embarked"
+            "[+100]% Strength <when defending> <when [Embarked]>"
         ],
         "attackSound": "shot"
     },
@@ -2609,7 +2609,7 @@
         "cost": 450,
         "requiredTech": "Radar",
         "uniques": [
-            "May Paradrop up to [9] tiles from inside friendly territory",
+            "May Paradrop to [Land] tiles up to [9] tiles away <in [{Friendly} {Land}] tiles>",
             "Never appears as a Barbarian unit"
         ],
         "promotions": ["Recon", "Hit and Run I", "Survivalism I", "Survivalism II", "Spotter I", "Quick Study"],
@@ -2893,7 +2893,7 @@
         "requiredTech": "Nanotechnology",
         "promotions": ["Recon", "Hit and Run I", "Hit and Run II", "Survivalism I", "Survivalism II", "Spotter I", "Quick Study"],
         "uniques": [
-            "May Paradrop up to [40] tiles from inside friendly territory",
+            "May Paradrop to [Land] tiles up to [40] tiles away <in [{Friendly} {Land}] tiles>",
             "Never appears as a Barbarian unit"
         ],
         "attackSound": "shot"
@@ -3025,7 +3025,7 @@
             "Unbuildable",
             "Uncapturable",
             "Religious Unit",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "[-1] Sight",
             "Takes your religion over the one in their birth city"
         ],
@@ -3049,7 +3049,7 @@
             "Unbuildable",
             "Uncapturable",
             "Religious Unit",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Takes your religion over the one in their birth city"
         ],
         "movement": 4,
@@ -3065,7 +3065,7 @@
             "Great Person - [Faith]",
             "Uncapturable",
             "Unbuildable",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
         ],
         "movement": 4
     },
@@ -3159,7 +3159,7 @@
             "[-1] Sight",
             "Unbuildable",
             "Religious Unit",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "movement": 4,
         "religiousStrength": 1000
@@ -3173,7 +3173,7 @@
 			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
             "[+1] Sight",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit"
         ],
@@ -3193,7 +3193,7 @@
 			"Can remove other religions from cities <for [4] movement> <in [Friendly] tiles> <once> <after which this unit is consumed>",
             "Can be purchased for [200] [Faith] [in all cities in which the majority religion is an enhanced religion]",
             "[+1] Sight",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Unbuildable",
             "Religious Unit"
         ],
