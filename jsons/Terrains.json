@@ -598,7 +598,6 @@
         "unbuildable": true,
         "weight": 10
     },
-    /*
     // BNW wonders
     {
         "name": "King Solomon's Mines",
@@ -643,5 +642,4 @@
         ],
         "weight": 10
     }
-*/
 ]
